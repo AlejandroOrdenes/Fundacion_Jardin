@@ -1,0 +1,100 @@
+    * {
+        font-family: 'league spartan', sans-serif;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+
+    }
+    
+    .master {
+        display: column;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        
+    }
+    
+    .navBar {
+        background-color: rgb(42, 42, 42);
+        height: 7%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+        padding-left: 2%;
+        text-decoration: none;
+    }
+    
+    .colorJardin {
+        color: rgb(89, 236, 89);
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 3%;
+        width: 100%;
+        justify-content: right;
+    }
+    
+    li {
+        padding-right: 2%;
+        color: white;
+    }
+    
+    li:hover {
+        cursor: pointer;
+        color: rgb(89, 236, 89);
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    
+    .imgBackground {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+    .main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background-image: url(https://marketplace.canva.com/MADGyPCf3w4/4/screen_2x/canva-home-gardening---young-rucola-MADGyPCf3w4.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .logoMain {
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+        padding-left: 5%;
+        text-decoration: none;
+    
+    }

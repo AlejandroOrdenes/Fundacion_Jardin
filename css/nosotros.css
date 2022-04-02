@@ -10,8 +10,30 @@ body {
 
 }
 
+.fullMenu {
+    display: flex;
+    list-style: none;
+    margin: 3%;
+    width: 100%;
+    justify-content: right;
+}
 
-.navBar {
+.linkMenu {
+    text-decoration: none;
+    color: white;
+}
+
+.linkMenu:hover {
+    color: #5cd85c;
+}
+
+.responsiveMenu {
+    display: none;
+}
+
+
+
+.navMenu {
     background-color: rgb(42, 42, 42);
     height: 7%;
     width: 100%;

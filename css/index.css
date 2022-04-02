@@ -56,7 +56,7 @@
         color: white;
     }
     
-    li:hover {
+    a:hover {
         cursor: pointer;
         color: rgb(89, 236, 89);
     }

@@ -113,13 +113,17 @@
     .button {
         width: 20%;
         height: 7%;
-        background-color: #5cd85c;
+        background-color: #72d372;
         color: white;
         border: none;
         font-size: 1.5vw;
         border-radius: 10px;
         cursor: pointer;
         
+    }
+
+    .button:hover {
+        background-color: #5cd85c;
     }
 
     .logoMain {
@@ -213,6 +217,11 @@
 
         i {
             font-size: 1.5rem;
+            color: white;
+        }
+
+        i:hover {
+            color: #5cd85c;
         }
         .containerButton {
             width: 100%;

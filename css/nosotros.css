@@ -99,16 +99,10 @@ a {
     padding-bottom: 27vh;
 }
 
-.button {
-    width: 20%;
-    height: 7%;
-    background-color: #5cd85c;
-    color: white;
-    border: none;
-    font-size: 1.5vw;
-    border-radius: 10px;
-    cursor: pointer;
-    
+#botonSubs {
+
+    background-color: #5cd85c; 
+    border-color: #5cd85c;
 }
 
 .logoMain {
@@ -141,13 +135,11 @@ a {
 }
 
 .titulo {
-    font-size: 5vw;
     font-weight: 700;
     color: rgb(53, 52, 52);
 }
 
 .parrafoNosotros {
-    font-size: 1.7vw;
     color: rgb(75, 75, 75);
     font-style: italic;
     text-align: start;
@@ -204,3 +196,33 @@ a {
 }
 
 
+@media (max-width: 600px) {
+
+    .fullMenu {
+        display: none;
+    }
+
+    .responsiveMenu {
+        display: flex;
+        list-style: none;
+        margin: 3%;
+        width: 100%;
+        justify-content: right;
+    }
+
+    li {
+        padding-right: 7%;
+    }
+
+    i {
+        font-size: 1.5rem;
+    }
+   
+    .textoNosotros {
+        margin-top: 13rem;
+    }
+    
+    #botonSubs {
+        margin-bottom: 3rem;
+    }
+}

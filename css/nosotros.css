@@ -39,9 +39,10 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 999;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 .logo {
@@ -118,4 +119,60 @@ a {
     text-decoration: none;
 
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.textoNosotros {
+    text-align: center;
+}
+
+.tituloImg {
+    display: flex;
+}
+
+.guantesImg {
+    width: 20%;
+    height: 20%;
+    padding-right: 5%;
+}
+
+.titulo {
+    font-size: 5vw;
+    font-weight: 700;
+    color: rgb(53, 52, 52);
+}
+
+.parrafoNosotros {
+    font-size: 2vw;
+    color: rgb(53, 52, 52);
+    font-style: italic;
+    text-align: start
+}
+.subs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.textoSubs {
+    padding: 7%;
+    text-align: center;
+}
+
+.buttonSubs {
+    align-items: center;
+        width: 20%;
+        height: 7%;
+        background-color: #5cd85c;
+        color: white;
+        border: none;
+        font-size: 1.5vw;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
 

@@ -27,6 +27,7 @@
         z-index: 1;
         display: flex;
         align-items: center;
+        position: fixed;
     }
     
     .logo {
@@ -56,14 +57,18 @@
         color: white;
     }
     
-    a:hover {
+    .linkMenu:hover {
         cursor: pointer;
         color: rgb(89, 236, 89);
     }
     
-    a {
+    .linkMenu {
         text-decoration: none;
         color: white;
+    }
+
+    .linkMenu.active {
+        color: #5cd85c;
     }
     
     
@@ -83,7 +88,7 @@
         background-image: url(https://marketplace.canva.com/MADGyPCf3w4/4/screen_2x/canva-home-gardening---young-rucola-MADGyPCf3w4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 51.2rem;
+        height: 100vh;
         width: 100%;
         z-index: -1;
     }

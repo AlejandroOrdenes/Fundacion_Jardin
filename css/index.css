@@ -5,6 +5,8 @@
     body {
         margin: 0;
         padding: 0;
+        width: 100vw;
+        height: 100vh;
 
     }
     
@@ -88,7 +90,7 @@
         background-image: url(https://marketplace.canva.com/MADGyPCf3w4/4/screen_2x/canva-home-gardening---young-rucola-MADGyPCf3w4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 93.5vh;
+        height: 100vh;
         width: 100%;
         z-index: -1;
     }
@@ -116,7 +118,7 @@
         background-color: #5cd85c;
         color: white;
         border: none;
-        font-size: 3vh;
+        font-size: 2vw;
         border-radius: 10px;
         cursor: pointer;
         

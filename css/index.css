@@ -38,6 +38,7 @@
     .colorJardin {
         color: rgb(89, 236, 89);
     }
+
     
     .menu {
         display: flex;
@@ -82,19 +83,64 @@
         width: 100%;
         height: 100%;
         display: flex;
-        align-items: center;
+        align-items: normal;
+        flex-direction: row;
         background-image: url(https://marketplace.canva.com/MADGyPCf3w4/4/screen_2x/canva-home-gardening---young-rucola-MADGyPCf3w4.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 93.5vh;
         width: 100%;
         z-index: -1;
     }
+
+    .containerLogoIndex {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 27vh;
+    }
     
+    .containerButton {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 27vh;
+    }
+
+    .button {
+        width: 20%;
+        height: 7%;
+        background-color: #5cd85c;
+        color: white;
+        border: none;
+        font-size: 3vh;
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+
     .logoMain {
         color: white;
-        font-size: xx-large;
+        font-size: 10vw;
         font-weight: bold;
         padding-left: 5%;
         text-decoration: none;
     
+    }
+
+    .descripLogo {
+        color: white;
+        font-size: 4vw;
+        font-weight: normal;
+        text-decoration: none;
+        font-weight: 100;
+        text-decoration: none;
+        font-style: italic;
+    }
+
+    .desLogoContainer {
+        padding-left: 15vw;
     }

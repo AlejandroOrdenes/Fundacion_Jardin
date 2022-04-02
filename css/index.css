@@ -50,13 +50,6 @@
         align-items: center;
     }
     
-    ul {
-        display: flex;
-        list-style: none;
-        margin: 3%;
-        width: 100%;
-        justify-content: right;
-    }
     
     li {
         padding-right: 2%;
@@ -90,7 +83,7 @@
         background-image: url(https://marketplace.canva.com/MADGyPCf3w4/4/screen_2x/canva-home-gardening---young-rucola-MADGyPCf3w4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 51.2rem;
         width: 100%;
         z-index: -1;
     }
@@ -118,7 +111,7 @@
         background-color: #5cd85c;
         color: white;
         border: none;
-        font-size: 2vw;
+        font-size: 1.5vw;
         border-radius: 10px;
         cursor: pointer;
         
@@ -145,4 +138,119 @@
 
     .desLogoContainer {
         padding-left: 15vw;
+    }
+
+    @media (min-width: 1000px) {
+        .fullMenu {
+            display: flex;
+            list-style: none;
+            margin: 3%;
+            width: 100%;
+            justify-content: right;
+        }
+
+        .button {
+            font-size: 2rem;
+            width: 29%;
+            height: 9%;
+        }
+
+        .logoMain {
+            font-size: 10vw;
+        }
+
+        .responsiveMenu {
+            display: none;
+        }
+    }
+
+    @media (min-width: 600px) and (max-width:1000px){
+        .fullMenu {
+            display: flex;
+            list-style: none;
+            margin: 3%;
+            width: 100%;
+            justify-content: right;
+        }
+    
+        .responsiveMenu {
+            display: none;
+        }
+
+        .button {
+            font-size: 2rem;
+            width: 48%;
+            height: 9%;
+        }
+
+        .logoMain {
+            font-size: 13vw;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        .fullMenu {
+            display: none;
+        }
+
+        .responsiveMenu {
+            display: flex;
+            list-style: none;
+            margin: 3%;
+            width: 100%;
+            justify-content: right;
+        }
+
+        li {
+            padding-right: 7%;
+        }
+
+        i {
+            font-size: 1.5rem;
+        }
+        .containerButton {
+            width: 100%;
+            height: 45%;
+            padding-bottom: 0vh;
+            align-items: flex-start;
+        }
+        .button {
+            width: 35%;
+            height: 13%;
+            font-size: 1.5rem;
+            
+        }
+
+        .containerLogoIndex { 
+            width: 100%;
+            height: 61%;
+            padding-bottom: 0vh;
+        }
+
+        .main {
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            
+        }
+
+        .logoMain {
+            color: white;
+            font-size: 20vw;
+            font-weight: bold;
+            padding-left: 5%;
+            text-decoration: none;
+        
+        }
+
+        .descripLogo {
+            color: white;
+            font-size: 6.5vw;
+            font-weight: normal;
+            text-decoration: none;
+            font-weight: 100;
+            text-decoration: none;
+            font-style: italic;
+        }
     }

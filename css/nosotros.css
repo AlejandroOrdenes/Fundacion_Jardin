@@ -147,11 +147,33 @@ a {
 }
 
 .parrafoNosotros {
-    font-size: 2vw;
-    color: rgb(53, 52, 52);
+    font-size: 1.7vw;
+    color: rgb(75, 75, 75);
     font-style: italic;
-    text-align: start
+    text-align: start;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
+
+.socialMedia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+}
+
+.social {
+    color: #83d583;
+    font-size: 2.4vw;
+    padding: 1%;
+}
+
+.social:hover {
+    color: #5cd85c;
+}
+
 .subs {
     display: flex;
     flex-direction: column;
@@ -159,20 +181,26 @@ a {
 
 }
 .textoSubs {
+    color: rgb(75, 75, 75);
     padding: 7%;
     text-align: center;
+    font-style: italic;
 }
 
 .buttonSubs {
     align-items: center;
-        width: 20%;
-        height: 7%;
-        background-color: #5cd85c;
-        color: white;
-        border: none;
-        font-size: 1.5vw;
-        border-radius: 10px;
-        cursor: pointer;
+    width: 20%;
+    height: 7%;
+    background-color: #83d583;
+    color: white;
+    border: none;
+    font-size: 1.4vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonSubs:hover {
+    background-color: #5cd85c;
 }
 
 

@@ -7,7 +7,14 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-
+    display: flex;
+    align-items: normal;
+    flex-direction: row;
+    background-image: url(https://marketplace.canva.com/MADGyHf1-OI/4/screen_2x/canva-home-gardening---young-rucola---top-view-MADGyHf1-OI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-attachment: fixed;
 }
 
 
@@ -90,112 +97,46 @@ a {
     color: white;
 }
 
-
-
-.containerButton {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 27vh;
-}
-
-#botonSubs {
-
-    background-color: #5cd85c; 
-    border-color: #5cd85c;
-}
-
-.logoMain {
-    color: white;
-    font-size: 10vw;
-    font-weight: bold;
-    padding-left: 5%;
-    text-decoration: none;
-
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.textoNosotros {
-    text-align: center;
-}
-
-.tituloImg {
-    display: flex;
-}
-
-.guantesImg {
-    width: 20%;
-    height: 20%;
-    padding-right: 5%;
-}
-
-.titulo {
-    font-weight: 700;
-    color: rgb(53, 52, 52);
-}
-
-.parrafoNosotros {
-    color: rgb(75, 75, 75);
-    font-style: italic;
-    text-align: start;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-
-}
-
-.socialMedia {
-    width: 100%;
+#containerForm {
     display: flex;
     justify-content: center;
-    padding: 6%;
+    margin-top: 10rem;
+}
+#rowContainer {
+    width: 52vw;
 }
 
-.social {
-    color: #83d583;
-    font-size: 2.4vw;
-    padding: 1%;
-}
-
-.social:hover {
-    color: #5cd85c;
-}
-
-.subs {
+#contForm {
+    background-color: white;
+    height: 70vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
 }
-.textoSubs {
-    color: rgb(75, 75, 75);
-    padding: 7%;
+
+#contDatos {
+    padding: 0;
+    background-color: #f7f7f7;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-style: italic;
+    justify-content: center;
+    padding: 2vh;
 }
 
-.buttonSubs {
-    align-items: center;
-    width: 20%;
-    height: 7%;
-    background-color: #83d583;
-    color: white;
-    border: none;
-    font-size: 1.4vw;
-    border-radius: 10px;
-    cursor: pointer;
+#iconContacto {
+    padding-right: 10%;
+    color: #545454;
 }
 
-.buttonSubs:hover {
-    background-color: #5cd85c;
-}
+.imgBack {
+    width: 100%;
+    height: 100%;
 
+}
 
 @media (max-width: 600px) {
 
@@ -219,11 +160,5 @@ a {
         font-size: 1.5rem;
     }
 
-    .textoNosotros {
-        margin-top: 30rem;
-    }
     
-    #botonSubs {
-        margin-bottom: 3rem;
-    }
 }

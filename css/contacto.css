@@ -61,6 +61,10 @@ body {
     text-decoration: none;
 }
 
+.logo:hover {
+    color: white;
+}
+
 .colorJardin {
     color: rgb(89, 236, 89);
 }
@@ -140,6 +144,21 @@ a {
 #botonEnviar {
     background-color: #5cd85c;
     border: none;
+}
+
+.socialMedia {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social {
+    color: #7dd47d;
+    font-size: 1.5vw;
+}
+
+.social:hover {
+    color: #5cd85c;
 }
 
 @media (max-width: 600px) {

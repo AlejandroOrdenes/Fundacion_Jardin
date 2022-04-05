@@ -88,161 +88,192 @@
     <!--                    Productos      -->
     <!--  ================================================ -->
     <!-- largo de imagenes 455 por 455-->
-    <section class="productos">
+    
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <section class="productos">
 
-      <!--Bonsai de Interiores-->
-      <div class="container mt-5 mb-5">
-        <div class="btn-group ">
-          <a href="#" class="btn btn-secondary btn-lg active" aria-current="page">Todos</a>
-          <a href="#" class="btn btn-secondary btn-lg">Maceteros</a>
-          <a href="#" class="btn btn-secondary btn-lg">Tierra de hojas</a>
-          <a href="#" class="btn btn-secondary btn-lg">Flores</a>
-          <a href="#" class="btn btn-secondary btn-lg">Arbustos</a>
-        </div>
-        <h2 class="h2-title"></h2>
-        <hr class="hr-2 mx-auto">
-        <h4 class="p-description"></h4>
-      </div>
+            <!--Bonsai de Interiores-->
+            <div class="container mt-5 mb-5">
+              <div class="btn-group ">
+                <a href="#" class="btn btn-secondary btn-lg active" aria-current="page">Todos</a>
+                <a href="#" class="btn btn-secondary btn-lg">Maceteros</a>
+                <a href="#" class="btn btn-secondary btn-lg">Tierra de hojas</a>
+                <a href="#" class="btn btn-secondary btn-lg">Flores</a>
+                <a href="#" class="btn btn-secondary btn-lg">Arbustos</a>
+              </div>
+              <h2 class="h2-title"></h2>
+              <hr class="hr-2 mx-auto">
+              <h4 class="p-description"></h4>
+            </div>
+            
+            <div class="row mx-auto container-fluid">
+        
+              <!--Producto 1-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Planta del dinero">
+              
+                <h5 class="card-title">Planta del dinero</h5>
+                <p class="card-text">$5.000</p>
+                <!-- cambiar por pagina correspondiente al producto-->
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal">Ver producto</button>
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Planta del dinero</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Planta del dinero">
+                        <h6> Esta planta cuenta con</h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                
+                <a href="../pages/tienda.html"> <!-- aca deberia ir la supuesta pagina o carrito si es que tenemos uno-->
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--Producto 2-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/P-Ficusbenjamina.png" alt="Suculent bonsai tree in pot">
+        
+                <h5 class="card-title">Ficus Benjamina</h5>
+                <p class="card-text">$23.600</p>
+                <a href="Prueba.html"> 
+                  <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+                </a>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--Producto 3-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/P-cheflera.png" alt="Bonsai Jade Tree in vase">
+        
+                <h5 class="card-title">Cheflera</h5>
+                <p class="card-text">$25.000</p>
+                <a href="Prueba.html">
+                  <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+                </a>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>  
+        
+            </div>
       
-      <div class="row mx-auto container-fluid">
-  
-        <!--Producto 1-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Planta del dinero">
+            <div class="row mx-auto container-fluid">
         
-          <h5 class="card-title">Planta del dinero</h5>
-          <p class="card-text">$5.000</p>
-          <a href="Prueba.html"> <!-- cambiar por pagina correspondiente al producto-->
-            <button type="button" class="btn rounded-pill btn-success ">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
-          </a>
-        </div>
-  
-        <!--Producto 2-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/P-Ficusbenjamina.png" alt="Suculent bonsai tree in pot">
-  
-          <h5 class="card-title">Ficus Benjamina</h5>
-          <p class="card-text">$23.600</p>
-          <a href="Prueba.html"> 
-            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
-          </a>
-        </div>
-  
-        <!--Producto 3-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/P-cheflera.png" alt="Bonsai Jade Tree in vase">
-  
-          <h5 class="card-title">Cheflera</h5>
-          <p class="card-text">$25.000</p>
-          <a href="Prueba.html">
-            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
-          </a>
-        </div>  
-  
-      </div>
-
-      <div class="row mx-auto container-fluid">
-  
-        <!--Producto 4-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/M-plastico.png" alt="Juniper outdoor Bonsai tree on pot">
+              <!--Producto 4-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/M-plastico.png" alt="Juniper outdoor Bonsai tree on pot">
+              
+                <h5 class="card-title">Macetero de plastico alargado</h5>
+                <p class="card-text">$3.900</p>
+                <a href="Prueba.html">
+                  <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+                </a>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
         
-          <h5 class="card-title">Macetero de plastico alargado</h5>
-          <p class="card-text">$3.900</p>
-          <a href="Prueba.html">
-            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
-          </a>
-        </div>
-  
-        <!--Producto 5-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/M-madera-fate2.png" alt="Maple outdoor Bonsai tree on pot">
-  
-          <h5 class="card-title">Macetero madera fate</h5>
-          <p class="card-text">$89.900</p>
-          <a href="Prueba.html">
-            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
-          </a>
-        </div>
-  
-        <!--Producto 6-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/A-Eucalipto.jpg" alt="Acer outdoor Bonsai tree on pot">
-  
-          <h5 class="card-title">Arbusto Eucalipto</h5>
-          <p class="card-text">$23.000</p>
-          <a href="Prueba.html">
-            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Carrito"></button>
-          </a>
-        </div>  
-  
-      </div>
-
-      <div class="row mx-auto container-fluid">
-  
-        <!--Producto 7-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/A-name.jpg" alt="Juniper outdoor Bonsai tree on pot">
+              <!--Producto 5-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/M-madera-fate2.png" alt="Maple outdoor Bonsai tree on pot">
         
-          <h5 class="card-title">Arbusto nombre</h5>
-          <p class="card-text">$16.000</p>
-          <a href="Prueba.html">
-            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
-          </a>
+                <h5 class="card-title">Macetero madera fate</h5>
+                <p class="card-text">$89.900</p>
+                <a href="Prueba.html">
+                  <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+                </a>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--Producto 6-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/A-Eucalipto.jpg" alt="Acer outdoor Bonsai tree on pot">
+        
+                <h5 class="card-title">Arbusto Eucalipto</h5>
+                <p class="card-text">$23.000</p>
+                <a href="Prueba.html">
+                  <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+                </a>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Carrito"></button>
+                </a>
+              </div>  
+        
+            </div>
+      
+            <div class="row mx-auto container-fluid">
+        
+              <!--Producto 7-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/A-name.jpg" alt="Juniper outdoor Bonsai tree on pot">
+              
+                <h5 class="card-title">Arbusto nombre</h5>
+                <p class="card-text">$16.000</p>
+                <a href="Prueba.html">
+                  <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+                </a>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--Producto 8-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/T-Tierrita2.jpg" alt="Maple outdoor Bonsai tree on pot">
+        
+                <h5 class="card-title">Tierra de hojas 40KL</h5>
+                <p class="card-text">$12.000</p>
+                <a href="Prueba.html">
+                  <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+                </a>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--Producto 9-->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/T-tierrita.jpg" alt="Acer outdoor Bonsai tree on pot">
+        
+                <h5 class="card-title">Tierra de hojas 15KL</h5>
+                <p class="card-text">$5.000</p>
+                <a href="Prueba.html">
+                  <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+                </a>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Carrito"></button>
+                </a>
+              </div>  
+        
+            </div>
+        
+          </section>
         </div>
-  
-        <!--Producto 8-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/T-Tierrita2.jpg" alt="Maple outdoor Bonsai tree on pot">
-  
-          <h5 class="card-title">Tierra de hojas 40KL</h5>
-          <p class="card-text">$12.000</p>
-          <a href="Prueba.html">
-            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
-          </a>
-        </div>
-  
-        <!--Producto 9-->
-        <div class="product text-center col-lg-4 col-md-4 col-12">
-          <img class="img-fluid mb-3" src="img/T-tierrita.jpg" alt="Acer outdoor Bonsai tree on pot">
-  
-          <h5 class="card-title">Tierra de hojas 15KL</h5>
-          <p class="card-text">$5.000</p>
-          <a href="Prueba.html">
-            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
-          </a>
-          <a href="../pages/tienda.html">
-            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Carrito"></button>
-          </a>
-        </div>  
-  
       </div>
-  
-    </section>
+    </div>
 
     <!--  ================================================ -->
     <!--                    Seccion de paginas             -->

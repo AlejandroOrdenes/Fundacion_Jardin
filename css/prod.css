@@ -65,6 +65,12 @@ body {
   align-items: center;
 }
 
+#toggleMenu {
+  display: inline;
+  padding: 0%;
+  color: white;
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -90,6 +96,39 @@ a {
 
 .logo:hover {
   color: white;
+}
+
+@media (max-width: 600px) {
+
+  .fullMenu {
+      display: none;
+  }
+
+  .responsiveMenu {
+      display: flex;
+      list-style: none;
+      margin: 3%;
+      width: 100%;
+      justify-content: right;
+  }
+
+  li {
+      padding-right: 7%;
+  }
+
+  
+
+  i {
+      font-size: 1.5rem;
+  }
+
+  .textoNosotros {
+      margin-top: 30rem;
+  }
+  
+  #botonSubs {
+      margin-bottom: 3rem;
+  }
 }
 
 /* #### -Fin menu- #### */

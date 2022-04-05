@@ -73,6 +73,10 @@ ul {
   justify-content: right;
 }
 
+#carouselExampleSlidesOnly {
+  margin-top: 5%;
+}
+
 li {
   padding-right: 2%;
   color: white;
@@ -115,7 +119,10 @@ a {
   i {
       font-size: 1.5rem;
   }
-
+  
+  #carouselExampleSlidesOnly {
+    margin-top: 20%;
+  }
   .textoNosotros {
       margin-top: 30rem;
   }

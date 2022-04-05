@@ -26,10 +26,18 @@
                 <li><a class="linkMenu" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
             <ul class="responsiveMenu">
-                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
+                <li><a class="linkMenu" href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a class="linkMenu" href=""><i class="fa-solid fa-user"></i></a></li>
+                <li><a class="linkMenu" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li class="nav-item dropdown">
+                    <a id="toggleMenu" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-bars"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Inicio</a></li>
+                        <li><a class="dropdown-item" href="./nosotros.html">Nosotros</a></li>
+                        <li><a class="dropdown-item" href="./Prod.html">Productos</a></li>
+                        <li><a class="dropdown-item" href="./contacto.html">Contactos</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
@@ -41,7 +49,7 @@
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div id="emailHelp" class="form-text">Ingresa tu Email</div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Mensaje</label>
@@ -51,7 +59,7 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Deseo recibir noticias</label>
                     </div>
-                    <button id="botonEnviar" type="submit" class="btn btn-primary">Submit</button>
+                    <button id="botonEnviar" type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
             <div id="contDatos" class="col-xl-6 col-lg-6 col-md-6 col-sm-6">

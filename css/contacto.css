@@ -53,6 +53,12 @@ body {
     position: fixed;
 }
 
+#toggleMenu {
+    display: inline;
+    padding: 0%;
+    color: white;
+  }
+
 .logo {
     color: white;
     font-size: xx-large;

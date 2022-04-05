@@ -2,16 +2,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/fef38ef5aa.js" crossorigin="anonymous"></script>
     <link href="./css/index.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fef38ef5aa.js" crossorigin="anonymous"></script>
     <title>TuJardin</title>
 </head>
-<body>
+<body id="body">
     <div class="master">
-        <div class="navBar">
+        <div class="navMenu">
             <a class="logo" href="">Tu<span class="colorJardin">Jardín</span></a>
             <div class="menu">
                 <ul class="fullMenu">
@@ -27,7 +29,15 @@
                     <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href=""><i class="fa-solid fa-user"></i></a></li>
                     <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
+                    <li class="nav-item dropdown">
+                        <a id="toggleMenu" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-bars"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="./nosotros.html">Nosotros</a></li>
+                            <li><a class="dropdown-item" href="./Prod.html">Productos</a></li>
+                            <li><a class="dropdown-item" href="./contacto.html">Contactos</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -35,7 +45,7 @@
             <div class="containerLogoIndex">
                 <a class="logoMain" href="">Tu<span class="colorJardin">Jardín <br> </span></a>
                 <div class="desLogoContainer">
-                    <span class="descripLogo">Fundación <br> sin Fines de Lucro</span>
+                    <span class="descripLogo">Venta Insumos <br> de Jardineria</span>
                 </div>
             </div>
             <div class="containerButton">

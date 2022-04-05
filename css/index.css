@@ -41,6 +41,10 @@
         padding-left: 2%;
         text-decoration: none;
     }
+
+    .logo:hover {
+        color: white;
+    }
     
     .colorJardin {
         color: rgb(89, 236, 89);
@@ -147,6 +151,10 @@
         padding-left: 5%;
         text-decoration: none;
     
+    }
+
+    .logoMain:hover {
+        color: white;
     }
 
     .descripLogo {

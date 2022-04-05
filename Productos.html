@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+
+    <link rel="icon" href="img/logo.png"sizes="64x64">
+    <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fef38ef5aa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Menu.css">
+    <!--Bootstrap / Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">   
+    <link rel="stylesheet" href="css/prueba.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  </head>
+  <body id="fb">
+
+    <!--  ================================================ -->
+    <!--                 Letras de arriba(opcional)        -->
+    <!--  ================================================ -->
+
+    <header class="container-fluid bg-secondary d-flex justify-content-center">
+    <p class="text-light mb-0 p-2 fs-6">
+        Dona a la fundacion para recibir 5% de desc.!!!
+    </p> <!-- Prueba, se puede sacar en cualquier momento.-->
+    </header>
+
+    <!--  ================================================ -->
+    <!--                 Navegador predeterminado          -->
+    <!--  ================================================ -->
+
+    
+    <div class="navMenu">
+      <a class="logo" href="">Tu<span class="colorJardin">Jardín</span></a>
+      <div class="menu">
+          <ul class="fullMenu">
+              <li><a class="linkMenu" href="./index.html">Inicio</a></li>
+              <li><a class="linkMenu" href="./nosotros.html">Nosotros</a></li>
+              <li><a class="linkMenu" href="./Prod.html">Productos</a></li>
+              <li><a class="linkMenu" href="./contacto.html">Contactos</a></li>
+              <li><a class="linkMenu" href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+              <li><a class="linkMenu" href=""><i class="fa-solid fa-user"></i></a></li>
+              <li><a class="linkMenu" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+          </ul>
+          <ul class="responsiveMenu">
+              <li><a class="linkMenu" href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+              <li><a class="linkMenu" href=""><i class="fa-solid fa-user"></i></a></li>
+              <li><a class="linkMenu" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li class="nav-item dropdown">
+                <a id="toggleMenu" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-bars"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./index.html">Inicio</a></li>
+                  <li><a class="dropdown-item" href="./nosotros.html">Nosotros</a></li>
+                  <li><a class="dropdown-item" href="./Prod.html">Productos</a></li>
+                  <li><a class="dropdown-item" href="./contacto.html">Contactos</a></li>
+                </ul>
+              </li>
+          </ul>
+      </div>
+    </div>
+    <div class="container-fluid">
+
+      <div class="row">
+
+    <!--  ================================================ -->
+    <!--                 Carrusel de imagenes              -->
+    <!--  ================================================ -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="img/IMG-car-2.jpg" class="w-100" alt="bonsai species exposition">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/IMG-car-1.jpg" class="w-100" alt="Arbustitos">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/IMG-car-3.jpg" class="w-100" alt="">
+        </div>
+
+      </div>
+  </div>
+    <!--  ================================================ -->
+    <!--                 intro                            -->
+    <!--  ================================================ -->
+    <section class="container">
+      <dl class="row">
+          <dt class="col-md-12 p-3">
+              <h1 class="h1-title centrado" >Nuestros Productos</h1>
+              <hr class="mx-auto">
+          </dt>
+      </dl>
+    </section>
+    <!--  ================================================ -->
+    <!--                    eleccion de parametros       -->
+    <!--  ================================================ -->
+    <section class="container">
+    <h5>Ordenar Por:</h5>
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Mas vendidos
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <li><a class="dropdown-item" href="#">Precio,Mayor a menor</a></li>
+        <li><a class="dropdown-item" href="#">Precio,Menor a mayor</a></li>
+        <li><a class="dropdown-item" href="#">Fecha: antiguo a reciente</a></li>
+        <li><a class="dropdown-item" href="#">Fecha: reciente a antiguo</a></li>
+      </ul>
+    </div>
+  </section>
+
+    <!--  ================================================ -->
+    <!--                    Productos      -->
+    <!--  ================================================ -->
+    <!-- largo de imagenes 455 por 455-->
+    
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <section class="productos">
+
+            <!--Clasificaciones-->
+            <div class="container mt-5 mb-5">
+              <div class="btn-group ">
+                <a href="#" class="btn btn-secondary btn-lg active" aria-current="page">Todos</a>
+                <a href="#" class="btn btn-secondary btn-lg">Maceteros</a>
+                <a href="#" class="btn btn-secondary btn-lg">Tierra de hojas</a>
+                <a href="#" class="btn btn-secondary btn-lg">Flores</a>
+                <a href="#" class="btn btn-secondary btn-lg">Arbustos</a>
+              </div>
+              <h2 class="h2-title"></h2>
+              <hr class="hr-2 mx-auto">
+              <h4 class="p-description"></h4>
+            </div>
+            
+            <div class="row mx-auto container-fluid">
+        
+              <!--          -->
+              <!--Producto 1-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Planta del dinero">
+              
+                <h5 class="card-title">Planta del dinero</h5>
+                <p class="card-text">$5.000</p>
+                <!-- cambiar por pagina correspondiente al producto-->
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal">Ver producto</button>
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Planta del dinero</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3 " src="img/planta1dinero.jpg" alt="Planta del dinero">
+                        <h4>$5.000</h4>
+                        <h6> La planta del dinero es una especie siempre verde (perenne) caracterizada por alcanzar unos 50 cm de altura, 
+                          tener raíces fibrosas y ramas suculentas. Presenta un porte herbáceo y se considera una planta glabra. 
+                          A diferencia de lo que puedas pensar por su nombre “hiedra sueca” no tiene nada ni de planta trepadora, 
+                          ni de hiedra, ni mucho menos de sueca.</h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                
+               <!-- aca deberia ir la supuesta pagina o carrito si es que tenemos uno-->
+              <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+               
+              
+              </div>
+              <!--          -->
+              <!--Producto 2-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/P-Ficusbenjamina.png" alt="Suculent bonsai tree in pot">
+        
+                <h5 class="card-title">Ficus Benjamina</h5>
+                <p class="card-text">$23.600</p>
+                
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal2">Ver producto</button>
+                <div class="modal" id="myModal2">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Ficus Benjamina</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/P-Ficusbenjamina.png" alt="Ficus Benjamina">
+                        <h4>$23.600</h4>
+                        <h6> El Ficus benjamina, es la planta mas cultivada en los interiores de nuestras casas,
+                          son plantas fáciles de cuidar y crecen rápidamente y puede alcanzar los 30 m de altura 
+                          en condiciones naturales. Posee ramas péndulas y hojas gruesas de 6-13 cm de largo. Cuando fructifica, 
+                          raramente en interior, produce  pequeñas frutas, similares a los higos, que son el alimento favorito de 
+                          varias aves en Malasia y Tailandia, donde es nativo.</h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--          -->
+              <!--Producto 3-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/P-cheflera.png" alt="Bonsai Jade Tree in vase">
+        
+                <h5 class="card-title">Cheflera</h5>
+                <p class="card-text">$25.000</p>
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal3">Ver producto</button>
+                <div class="modal" id="myModal3">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Cheflera</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/P-cheflera.png" alt="Cheflera">
+                        <h4>$25.000</h4>
+                        <h6> La cheflera (Schefflera actinophylla) 
+                          es una planta de interior originaria de Australia muy agradecida, 
+                          fuerte y de gran desarrollo, que con unos mínimos cuidados puede llegar a 
+                          alcanzar una altura de dos o tres metros, dependiendo del espacio que tenga.</h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>  
+        
+            </div>
+      
+            <div class="row mx-auto container-fluid">
+        
+              <!--          -->
+              <!--Producto 4-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/M-plastico.png" alt="Juniper outdoor Bonsai tree on pot">
+              
+                <h5 class="card-title">Macetero de plastico alargado</h5>
+                <p class="card-text">$3.900</p>
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal4">Ver producto</button>
+                <div class="modal" id="myModal4">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Macetero de plastico alargado</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/M-plastico.png" alt="Macetero de plastico alargado">
+                        <h4>$3.990</h4>
+                        <h6> Macetero de plastico alargado un contenedor de forma rectangular para cultivar 
+                          y mantener plantas de interior y exterior. Por su forma y tamaño, es ideal para combinar 
+                          diferentes plantas con flores y follajes, generando atractivos arreglos decorativos para jardines, 
+                          terrazas, y en oficinas y locales comerciales.</h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--          -->
+              <!--Producto 5-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/M-madera-fate2.png" alt="Maple outdoor Bonsai tree on pot">
+        
+                <h5 class="card-title">Macetero madera fate</h5>
+                <p class="card-text">$89.900</p>
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal5">Ver producto</button>
+                <div class="modal" id="myModal5">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Macetero madera fate</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/M-madera-fate2.png" alt="Macetero madera fate">
+                        <h4>$89.900</h4>
+                        <h6> Este macetero de lujo cuenta con un sistema de auto riego que facilitará el cuidado de sus plantas,
+                           ahorrando agua, tiempo y nutrientes. Fabricado con un doble fondo que almacena el exceso de agua, 
+                           este macetero permite que la planta se nutra según sea necesario ¡por un periodo de hasta 10 días!
+                          Además, el grosor de la madera sirve de aislamiento térmico, manteniendo la temperatura de la raíz. </h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--          -->
+              <!--Producto 6-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/A-Eucalipto.jpg" alt="Acer outdoor Bonsai tree on pot">
+        
+                <h5 class="card-title">Arbusto Eucalipto</h5>
+                <p class="card-text">$23.000</p>
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal6">Ver producto</button>
+                <div class="modal" id="myModal6">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Arbusto Eucalipto</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/A-Eucalipto.jpg" alt="Arbusto Eucalipto">
+                        <h4>$23.000</h4>
+                        <h6> El Eucalipto o también llamado Eucalyptus o Eucaliptus es un arbusto de tamaño pequeño. 
+                          De crecimiento rápido, en la naturaleza pueden alcanzar un gran tamaño pero manteniéndolo en 
+                          una maceta su crecimiento se puede controlar como para utilizarla como planta de interior. 
+                          Disfruta de su belleza gracias a sus hojas tan especiales y reconocidas. </h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Carrito"></button>
+                </a>
+              </div>  
+        
+            </div>
+      
+            <div class="row mx-auto container-fluid">
+        
+              <!--          -->
+              <!--Producto 7-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/A-name.jpg" alt="Juniper outdoor Bonsai tree on pot">
+              
+                <h5 class="card-title">Thuja</h5>
+                <p class="card-text">$16.000</p>
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal">Ver producto</button>
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Thuja</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/A-name.jpg" alt="Thuja">
+                        <h4>$16.000</h4>
+                        <h6> Este arbusto es ideal para crear una cerca de privacidad ya que tiene el hábito de crecer densamente, 
+                          aunque deberías investigar qué variedad es la mejor para tu jardín, 
+                          ya que algunos pueden crecer más de 18 m de alto. Crece felizmente a pleno sol o sol parcial y es 
+                          resistente a las zonas de rusticidad de 2 a 7.</h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--          -->
+              <!--Producto 8-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/T-2.jpg" alt="Maple outdoor Bonsai tree on pot">
+        
+                <h5 class="card-title">Tierra de hojas 40L</h5>
+                <p class="card-text">$6.290</p>
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal8">Ver producto</button>
+                <div class="modal" id="myModal8">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Tierra de hojas 40L</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/T-2.jpg" alt="Planta del dinero">
+                        <h4>$6.290</h4>
+                        <h6> La Tierra de Hojas Gaspar Green en un producto usado para enriquecer el sustrato en el que se debe 
+                          desarrollar un cultivo. Es útil para el jardín, las zonas alrededor de arbustos, para trasplantes, terrazas, 
+                          siembras de césped, almácigos y para macetas. Una de las cualidades de este producto es que tiene una cantidad 
+                          de materia orgánica mayor al 30% que le da un gran aporte de nitrógeno y otros elementos a las plantas. 
+                          Es de origen natural y no genera efectos dañinos con el medio ambiente ni con el ser humano y los animales.</h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                </a>
+              </div>
+        
+              <!--          -->
+              <!--Producto 9-->
+              <!--          -->
+              <div class="product text-center col-lg-4 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/T-1.jpg" alt="Tierra de hojitas 40L">
+        
+                <h5 class="card-title">Tierra de hojas 40L</h5>
+                <p class="card-text">$5.990</p>
+                <button type="button" class="btn rounded-pill btn-success " data-bs-toggle="modal" data-bs-target="#myModal9">Ver producto</button>
+                <div class="modal" id="myModal9">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Tierra de hojas 40L</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="img-fluid mb-3" src="img/T-1.jpg" alt="Planta del dinero">
+                        <h4>$5.990</h4>
+                        <h6> La Tierra de Hojas, es un Sustrato natural desarrollado a partir de la compostación de hojas y 
+                          residuos vegetales, que mejora las condiciones de los suelos, tanto para el desarrollo de prados 
+                          como el de otras plantas. Favorece la germinación y crecimiento del césped. Idealmente para ser 
+                          usada en siembras y resiembra de prados en parques, plazas y jardines.</h6>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                <a href="../pages/tienda.html">
+                  <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Carrito"></button>
+                </a>
+              </div>  
+        
+            </div>
+        
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!--  ================================================ -->
+    <!--                    Seccion de paginas             -->
+    <!--  ================================================ -->
+    
+
+    <div class="btn-toolbar buttones" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group buttones me-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-success centrado">1</button>
+        <button type="button" class="btn btn-success">2</button>
+        <button type="button" class="btn btn-success">3</button>
+        <button type="button" class="btn btn-success">4</button>
+        <button type="button" class="btn btn-success">5</button>
+        <button type="button" class="btn btn-success">6</button>
+        <button type="button" class="btn btn-success">7</button>
+        <button type="button" class="btn btn-success">8</button>
+
+      </div>
+    </div>
+
+    <!--  ================================================ -->
+    <!--                    Seccion final                  -->
+    <!--  ================================================ -->
+
+    
+  
+    <!-- bootstrap java i think -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

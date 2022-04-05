@@ -134,14 +134,18 @@
         background-color: #72d372;
         color: white;
         border: none;
-        font-size: 1.5vw;
         border-radius: 10px;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vw;
         text-decoration: none;
     }
 
     .button:hover {
         background-color: #5cd85c;
+        color: white;
     }
 
     .logoMain {
@@ -212,6 +216,7 @@
             font-size: 2rem;
             width: 48%;
             height: 9%;
+            
         }
 
         .logoMain {
@@ -255,7 +260,6 @@
             width: 35%;
             height: 13%;
             font-size: 1.5rem;
-            
         }
 
         .containerLogoIndex { 

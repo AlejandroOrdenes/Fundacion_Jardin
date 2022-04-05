@@ -24,3 +24,11 @@
     margin-right:25%;
     padding-top: 3%;
 }
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.linkMenu:hover {
+    text-decoration: none;
+}

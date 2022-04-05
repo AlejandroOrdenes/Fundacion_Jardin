@@ -1,0 +1,13 @@
+/*    ================================================ 
+                Carrusel de imagenes                     
+    ================================================ */
+.carousel-inner{
+    max-height: 39rem;
+}
+.centrado{
+    text-align: center;
+}
+
+.centradito{
+    align-content: center;
+}

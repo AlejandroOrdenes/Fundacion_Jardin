@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+
+    <link rel="icon" href="img/logo.png"sizes="64x64">
+    <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Bootstrap / Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">   
+    <link rel="stylesheet" href="css/prueba.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  </head>
+  <body>
+
+    <!--  ================================================ -->
+    <!--                 Letras de arriba(opcional)        -->
+    <!--  ================================================ -->
+
+    <header class="container-fluid bg-secondary d-flex justify-content-center">
+    <p class="text-light mb-0 p-2 fs-6">
+        Dona a la fundacion para recibir 5% de desc.!!!
+    </p> <!-- Prueba, se puede sacar en cualquier momento.-->
+    </header>
+
+    <!--  ================================================ -->
+    <!--                 Navegador predeterminado          -->
+    <!--  ================================================ -->
+
+
+
+    <!--  ================================================ -->
+    <!--                 Carrusel de imagenes              -->
+    <!--  ================================================ -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="img/img-carrusel1.jpg" class="w-100" alt="bonsai species exposition">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/img-carrusel2.jpg" class="w-100" alt="outdoor bonsai species in pot">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/img-carrusel3.jpg" class="w-100" alt="gardening pot vase selection and soil from cenital view">
+        </div>
+
+      </div>
+  </div>
+    <!--  ================================================ -->
+    <!--                 intro                            -->
+    <!--  ================================================ -->
+    <section class="container">
+      <dl class="row">
+          <dt class="col-md-12 p-5">
+              <h1 class="h1-title centrado" >Nuestros Productos</h1>
+              <hr class="mx-auto">
+          </dt>
+      </dl>
+    </section>
+    <!--  ================================================ -->
+    <!--                    eleccion de parametros       -->
+    <!--  ================================================ -->
+    <section class="container">
+    <h5>Ordenar Por:</h5>
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Mas vendidos
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <li><a class="dropdown-item" href="#">Precio,Mayor a menor</a></li>
+        <li><a class="dropdown-item" href="#">Precio,Menor a mayor</a></li>
+        <li><a class="dropdown-item" href="#">Fecha: antiguo a reciente</a></li>
+        <li><a class="dropdown-item" href="#">Fecha: reciente a antiguo</a></li>
+      </ul>
+    </div>
+  </section>
+
+    <!--  ================================================ -->
+    <!--                    Productos      -->
+    <!--  ================================================ -->
+
+    <section class="productos">
+
+      <!--Bonsai de Interiores-->
+      <div class="container mt-5 mb-5">
+        <div class="btn-group ">
+          <a href="#" class="btn btn-secondary btn-lg active" aria-current="page">Todos</a>
+          <a href="#" class="btn btn-secondary btn-lg">Maceteros</a>
+          <a href="#" class="btn btn-secondary btn-lg">Tierra de hojas</a>
+          <a href="#" class="btn btn-secondary btn-lg">Flores</a>
+          <a href="#" class="btn btn-secondary btn-lg">Arbustos</a>
+        </div>
+        <h2 class="h2-title"></h2>
+        <hr class="hr-2 mx-auto">
+        <h4 class="p-description"></h4>
+      </div>
+      
+      <div class="row mx-auto container-fluid">
+  
+        <!--Producto 1-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Planta del dinero">
+        
+          <h5 class="card-title">Planta del dinero</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html"> <!-- cambiar por pagina correspondiente al producto-->
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+          </a>
+        </div>
+  
+        <!--Producto 2-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Suculent bonsai tree in pot">
+  
+          <h5 class="card-title">Suculenta</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html"> 
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+          </a>
+        </div>
+  
+        <!--Producto 3-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Bonsai Jade Tree in vase">
+  
+          <h5 class="card-title">Jade</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html">
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+          </a>
+        </div>  
+  
+      </div>
+
+      <div class="row mx-auto container-fluid">
+  
+        <!--Producto 1-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Juniper outdoor Bonsai tree on pot">
+        
+          <h5 class="card-title">Juniper</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html">
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+          </a>
+        </div>
+  
+        <!--Producto 2-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Maple outdoor Bonsai tree on pot">
+  
+          <h5 class="card-title">Maple</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html">
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+          </a>
+        </div>
+  
+        <!--Producto 3-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Acer outdoor Bonsai tree on pot">
+  
+          <h5 class="card-title">Acer</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html">
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Carrito"></button>
+          </a>
+        </div>  
+  
+      </div>
+
+      <div class="row mx-auto container-fluid">
+  
+        <!--Producto 1-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Juniper outdoor Bonsai tree on pot">
+        
+          <h5 class="card-title">Juniper</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html">
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+          </a>
+        </div>
+  
+        <!--Producto 2-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Maple outdoor Bonsai tree on pot">
+  
+          <h5 class="card-title">Maple</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html">
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Shopping Cart"></button>
+          </a>
+        </div>
+  
+        <!--Producto 3-->
+        <div class="product text-center col-lg-4 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="img/planta1dinero.jpg" alt="Acer outdoor Bonsai tree on pot">
+  
+          <h5 class="card-title">Acer</h5>
+          <p class="card-text">$5.000</p>
+          <a href="Prueba.html">
+            <button type="button" class="btn rounded-pill btn-success">Ver producto</button>
+          </a>
+          <a href="../pages/tienda.html">
+            <button class="btn btn-outline-success">+<img class="nav-svg" src="img/carro2.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar al Carrito" alt="Carrito"></button>
+          </a>
+        </div>  
+  
+      </div>
+  
+    </section>
+
+    <!--  ================================================ -->
+    <!--                    Seccion de paginas             -->
+    <!--  ================================================ -->
+
+
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-success centrado">1</button>
+        <button type="button" class="btn btn-success">2</button>
+        <button type="button" class="btn btn-success">3</button>
+        <button type="button" class="btn btn-success">4</button>
+        <button type="button" class="btn btn-success">5</button>
+        <button type="button" class="btn btn-success">6</button>
+        <button type="button" class="btn btn-success">7</button>
+        <button type="button" class="btn btn-success">8</button>
+      </div>
+    </div>
+
+    <!--  ================================================ -->
+    <!--                    Seccion final                  -->
+    <!--  ================================================ -->
+
+
+   <!-- bootstrap java i think -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

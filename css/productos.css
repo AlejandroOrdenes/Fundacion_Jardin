@@ -32,3 +32,14 @@
 .linkMenu:hover {
     text-decoration: none;
 }
+
+#cont {
+    margin-top: 10%;
+}
+
+#paginas {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}

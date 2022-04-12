@@ -183,11 +183,22 @@ a {
 
     li {
         padding-right: 7%;
+        display: flex;
     }
 
     i {
         font-size: 1.5rem;
     }
 
-    
+    #containerForm {
+        margin-top: 7rem;
+    }
+
+    #rowContainer {
+        width: 70vw;
+    }
+
+    .formContacto {
+        width: 90%;
+    }
 }

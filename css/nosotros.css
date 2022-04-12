@@ -222,6 +222,7 @@ a {
 
     li {
         padding-right: 7%;
+        display: flex;
     }
 
     i {

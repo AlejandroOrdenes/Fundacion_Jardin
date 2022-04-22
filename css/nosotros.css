@@ -7,7 +7,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-
+    overflow-x: hidden;
 }
 
 
@@ -244,13 +244,14 @@ a {
 
 
     .footer-distributed {
-      background-color: #292c2f;
+      background-color: #383332;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
       box-sizing: border-box;
       width: 100%;
       text-align: left;
       font: normal 16px sans-serif;
-      padding: 45px 50px;
+      padding: 20px 50px;
+
     }
     
     .footer-distributed .footer-left p {
@@ -300,8 +301,8 @@ a {
       display: inline-block;
       width: 35px;
       height: 35px;
-      padding-top: 10px; /* padding top agregado al cuadradito de los iconos */
-      background-color: #33383b;
+      padding-top: 8px; /* padding top agregado al cuadradito de los iconos */
+      background-color:  #0B643A;/*aca se cambia el color del icono*/
       border-radius: 2px;
       font-size: 20px;
       color: #ffffff;
@@ -309,6 +310,7 @@ a {
       line-height: 35px;
       margin-left: 3px;
       transition:all .25s;
+      border-radius: 20px;
     }
     
     .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}

@@ -108,7 +108,6 @@
   width: 35px;
   height: 35px;
   padding-top: 4px; /* padding top agregado al cuadradito de los iconos */
-  background-color: #0B643A;/*aca se cambia el color del icono*/
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
@@ -137,5 +136,8 @@
     line-height: 1.8;
   }
 }
-
+/* margen del footer de usuario*/
+.M_footer{
+  margin-top: 80px;
+}
 

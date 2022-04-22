@@ -309,7 +309,7 @@
   width: 100%;
   text-align: left;
   font: normal 16px sans-serif;
-  padding: 20px 50px;
+  padding: 15px 50px;
 }
 
 .footer-distributed .footer-left p {
@@ -360,7 +360,6 @@
   width: 35px;
   height: 35px;
   padding-top: 8px; /* padding top agregado al cuadradito de los iconos */
-  background-color: #0B643A;/*aca se cambia el color de los iconos*/
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;

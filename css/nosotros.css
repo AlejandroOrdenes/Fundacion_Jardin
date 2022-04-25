@@ -222,6 +222,7 @@ a {
 
     li {
         padding-right: 7%;
+        display: flex;
     }
 
     i {
@@ -229,7 +230,7 @@ a {
     }
 
     .textoNosotros {
-        margin-top: 30rem;
+        margin-top: 33rem;
     }
     
     #botonSubs {

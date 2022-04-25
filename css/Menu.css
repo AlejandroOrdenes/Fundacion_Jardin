@@ -110,6 +110,11 @@ a {
       justify-content: right;
   }
 
+  .navMenu {
+    height: 4.5%;
+    position: sticky;
+  }
+
   li {
       padding-right: 7%;
   }

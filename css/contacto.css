@@ -185,23 +185,21 @@ a {
 
     li {
         padding-right: 7%;
+        display: flex;
     }
 
     i {
         font-size: 1.5rem;
     }
 
-    
-/* esto se elimino durante el commit,lo volvi a implementar pero no fue posible*/
+}
+
 /*
 #containerForm {
         margin-top: 7rem;
         
     }
 
-.M_form{
-    margin-bottom: 40px;
-}
 #rowContainer {
         width: 70vw;
     }
@@ -211,4 +209,3 @@ a {
     }
 
 */
-}

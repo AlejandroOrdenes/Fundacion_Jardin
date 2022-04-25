@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
     z-index: -1;
     background-attachment: fixed;
+    overflow-x:hidden;
 }
 
 
@@ -134,6 +135,7 @@ a {
     text-align: center;
     justify-content: center;
     padding: 2vh;
+    
 }
 
 #iconContacto {
@@ -190,5 +192,23 @@ a {
     }
 
     
-}
+/* esto se elimino durante el commit,lo volvi a implementar pero no fue posible*/
+/*
+#containerForm {
+        margin-top: 7rem;
+        
+    }
 
+.M_form{
+    margin-bottom: 40px;
+}
+#rowContainer {
+        width: 70vw;
+    }
+
+.formContacto {
+        width: 90%;
+    }
+
+*/
+}

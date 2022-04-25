@@ -142,3 +142,26 @@ a {
 .well{
   width: 23%;
 }
+
+
+/*footer css para el modal (alineacion a la izquierda)*/
+.M_img_izq{
+  justify-content: right;
+  width: 80px;
+}
+/*espacio entre los botones*/
+.M_boton{
+  margin-top: -30px;
+}
+
+/*borde para el registro*/
+.bordesito{
+  border-radius: 15px;
+  margin-top:50px;
+  margin-bottom:10px;
+}
+
+.M_quitado{
+  margin-top:-50px;
+  margin-bottom: -50px;
+}

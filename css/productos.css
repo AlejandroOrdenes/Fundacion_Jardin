@@ -44,7 +44,6 @@
     margin-bottom: 4%;
 }
 
-<<<<<<< HEAD
 @media (max-width: 600px) {
     .responsiveMenu {
         padding-right: 33%;
@@ -55,7 +54,6 @@
         height: 5%;
     }
 }
-=======
 /*Footer parte, todo lo de abajo*/
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
@@ -153,4 +151,3 @@
   margin-top: 130px;
 }
 
->>>>>>> 15101b828c9ef15be00c29404b939f2bfdc9bb53

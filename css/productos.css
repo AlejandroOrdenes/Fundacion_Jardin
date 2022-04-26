@@ -43,3 +43,14 @@
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+@media (max-width: 600px) {
+    .responsiveMenu {
+        padding-right: 33%;
+        
+    }
+
+    .navMenu {
+        height: 5%;
+    }
+}

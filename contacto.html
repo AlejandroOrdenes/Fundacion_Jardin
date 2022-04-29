@@ -7,6 +7,8 @@
     <link rel="icon" href="img/logo.png"sizes="64x64">
     <script src="https://kit.fontawesome.com/fef38ef5aa.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;800;900&display=swap" rel="stylesheet">
@@ -45,22 +47,22 @@
     <div id="containerForm" class="container">
         <div id="rowContainer" class="row">
             <div id="contForm" class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                <h2 style="padding-bottom: 14%;">Contactanos</h2>
-                <form class="formContacto">
+                <h2 style="padding-bottom: 4%;">Contactanos</h2>
+                <form action="contacto.html" class="formContacto">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input placeholder="" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Ingresa tu Email</div>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="exampleInputPassword1" class="form-label" id="inputMensaje">Mensaje</label>
+                        <textarea class="form-control" id="inputText" rows="3"></textarea>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Deseo recibir noticias</label>
                     </div>
-                    <button id="botonEnviar" type="submit" class="btn btn-primary">Enviar</button>
+                    <input type="submit" class="btn btn-primary" id="botonEnviar" value="Enviar">
                 </form>
             </div>
             <div id="contDatos" class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
@@ -85,6 +87,6 @@
         </div>
     </div>
  <!-- falta implementar el footer-->
-    
+<script src="./js/contacto.js"></script>
 </body>
 </html>

@@ -111,25 +111,25 @@ a {
 #containerForm {
     display: flex;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 #rowContainer {
-    width: 52vw;
+    width: 71vw;
 }
 
 #contForm {
     background-color: white;
-    height: 70vh;
+    height: 79vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 7%;
+    padding-top: 4%;
 }
 
 #contDatos {
     padding: 0;
     background-color: #f7f7f7;
-    height: 70vh;
+    height: 79vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -149,6 +149,11 @@ a {
 
 }
 
+#inputText {
+    overflow: hidden;
+    resize: none;
+}
+
 #botonEnviar {
     background-color: #5cd85c;
     border: none;
@@ -162,7 +167,7 @@ a {
 
 .social {
     color: #7dd47d;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 .social:hover {

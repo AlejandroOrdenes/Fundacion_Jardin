@@ -149,9 +149,19 @@ a {
 
 }
 
+#inputEmail::placeholder {
+    color: red;
+    font-style: italic;
+}
+
 #inputText {
     overflow: hidden;
     resize: none;
+}
+
+#inputText::placeholder {
+    color: red;
+    font-style: italic;
 }
 
 #botonEnviar {

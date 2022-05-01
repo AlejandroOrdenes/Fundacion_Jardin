@@ -5,7 +5,10 @@ const email = document.getElementById('inputEmail');
 const address = document.getElementById('inputAddress')
 const password = document.getElementById('inputPass');
 const password2 = document.getElementById('inputPass2');
-const registerBoton = document.getElementById('botonRegistrarse')
+const emailUser = document.getElementById('floatingInput');
+const passUser = document.getElementById('floatingPassword');
+const registerButton = document.getElementById('botonRegistrarse');
+const loginButton = document.getElementById('loginButton')
 
 const validacion = (e) => {
     e.preventDefault();
@@ -51,55 +54,27 @@ const validacion = (e) => {
     }
 }
 
-registerBoton.addEventListener('click', validacion);
+const loginValidation = (e) => {
 
-// $(document).ready(function(){
-//     $("#botonRegistrarse").click(function(e){
+    e.preventDefault();
+    
+    if( isEmail( emailUser.value )) {
+        emailUser.style.borderColor = "yellowgreen";
+        console.log("EMail Correcto!!")
+    } else {
+        emailUser.style.borderColor = "red"
+        console.log("Email invalido!!")
+    }
 
-//         e.preventDefault();
+    if( passwordValidate( passUser.value )) {
+        passUser.style.borderColor = "yellowgreen";
+        console.log( passUser.value )
+        console.log("Password Valido!")
+    } else {
+        passUser.style.borderColor = "red"
+        console.log("Password no Valido!!")
+    }
+}
 
-//         let email = $("#inputEmail").val().trim();
-
-//         function isEmail(email) {
-//             var EmailRegex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-//             return EmailRegex.test(email);
-//           }
-
-//         if($("#inputNombre").val().trim().length==0 ){
-//             $("#inputNombre").css("border", "1px solid #ff3838");
-//             $("#inputNombre").focus(function(){
-//                 $("#inputNombre").css("border", "1px solid #ced4da");
-//             });
-//         } else {
-//             $("#inputNombre").css("border", "1px solid greenyellow");
-//         }
-
-//         if(isEmail(email)){
-//             $("#inputEmail").css("border", "1px solid greenyellow");
-//             $("#inputEmail").focus(function(){
-//                 $("#inputEmail").css("border", "1px solid #ced4da");
-//             });
-//         } else {
-//             $("#inputEmail").css("border", "1px solid #ff3838");
-//         }
-
-//         if($("#inputPass").val().trim().length==0 ){
-//             $("#inputPass").css("border", "1px solid #ff3838");
-//             $("#inputPass").focus(function(){
-//                 $("#inputPass").css("border", "1px solid #ced4da");
-//             });
-//         } else {
-//             $("#inputPass").css("border", "1px solid greenyellow");
-//         }
-
-//         if($("#inputRepPass").val().trim().length==0 ){
-//             $("#inputRepPass").css("border", "1px solid #ff3838");
-//             $("#inputRepPass").focus(function(){
-//                 $("#inputRepPass").css("border", "1px solid #ced4da");
-//             });
-//         } else {
-//             $("#inputRepPass").css("border", "1px solid greenyellow");
-//         }
-
-//     });
-// });
+loginButton.addEventListener( 'click', loginValidation );
+registerButton.addEventListener('click', validacion);

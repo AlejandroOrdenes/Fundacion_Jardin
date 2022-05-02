@@ -68,4 +68,4 @@ const loginValidation = (e) => {
 }
 
 get("loginButton").addEventListener( 'click', loginValidation );
-get("registerButton").addEventListener('click', validacion);
+get("botonRegistrarse").addEventListener('click', validacion);

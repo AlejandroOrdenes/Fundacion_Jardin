@@ -1,6 +1,6 @@
 
 
-#errorNombre, #errorDireccion, #errorEmail, #errorPass, #git add .errorPass2 {
+#errorNombre, #errorDireccion, #errorEmail, #errorPass, #errorPass2 {
     margin: 3%;
     font-size: 0.9rem;
     color: red;

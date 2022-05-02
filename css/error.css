@@ -1,0 +1,11 @@
+
+
+#errorNombre, #errorDireccion, #errorEmail, #errorPass, #errorPass2 {
+    margin: 3%;
+    font-size: 0.9rem;
+    color: red;
+    font-style: italic;
+    font-weight:500;
+    display: none;
+}
+

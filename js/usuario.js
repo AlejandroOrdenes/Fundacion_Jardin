@@ -1,56 +1,52 @@
 import { isEmail, nameValidate, addressValidate, passwordValidate, pass2Validate  } from "./validaciones.js"
 
-const username = document.getElementById('inputNombre');
-const email = document.getElementById('inputEmail');
-const address = document.getElementById('inputAddress')
-const password = document.getElementById('inputPass');
-const password2 = document.getElementById('inputPass2');
-const emailUser = document.getElementById('floatingInput');
-const passUser = document.getElementById('floatingPassword');
-const registerButton = document.getElementById('botonRegistrarse');
-const loginButton = document.getElementById('loginButton')
+function get(element) {
+    let get = document.getElementById(element)
+    return get;
+}
 
 const validacion = (e) => {
+
     e.preventDefault();
-    if (nameValidate( username.value )) {
-        username.style.borderColor = "yellowgreen";
-        console.log("Nombre Valido!!")
+
+    if (nameValidate( get("inputNombre").value )) {
+        get("inputNombre").style.borderColor = "yellowgreen";
+        get("errorNombre").style.display = "none"
     } else {
-        username.style.borderColor = "red"
-        console.log("Nombre no valido!!")
+        get("errorNombre").style.display = "flex"
+        get("inputNombre").style.borderColor = "red"
     }
 
-    if (addressValidate( address.value )) {
-        address.style.borderColor = "yellowgreen";
-        console.log("Direccion Valida!!")
+    if (addressValidate( get("inputAddress").value )) {
+        get("errorDireccion").style.display = "none"
+        get("inputAddress").style.borderColor = "yellowgreen";
     } else {
-        address.style.borderColor = "red"
-        console.log("Direccion no valido!!")
+        get("errorDireccion").style.display = "flex"
+        get("inputAddress").style.borderColor = "red"
     }
 
-    if( isEmail( email.value )) {
-        email.style.borderColor = "yellowgreen";
-        console.log("EMail Correcto!!")
+    if( isEmail( get("inputEmail").value )) {
+        get("errorEmail").style.display = "none"
+        get("inputEmail").style.borderColor = "yellowgreen";
     } else {
-        email.style.borderColor = "red"
-        console.log("Email invalido!!")
+        get("errorEmail").style.display = "flex"
+        get("inputEmail").style.borderColor = "red"
     }
 
-    if( passwordValidate( password.value )) {
-        password.style.borderColor = "yellowgreen";
-        console.log( password.value )
-        console.log("Password Valido!")
+    if( passwordValidate( get("inputPass").value )) {
+        get("errorPass").style.display = "none"
+        get("inputPass").style.borderColor = "yellowgreen";
     } else {
-        password.style.borderColor = "red"
-        console.log("Password no Valido!!")
+        get("errorPass").style.display = "flex"
+        get("inputPass").style.borderColor = "red"
     }
 
-    if( passwordValidate( password.value) && pass2Validate( password.value, password2.value )) {
-        password2.style.borderColor = "yellowgreen";
-        console.log("Passwords Correctos!!")
+    if( passwordValidate( get("inputPass2").value) && pass2Validate( get("inputPass").value, get("inputPass2").value )) {
+        get("errorPass2").style.display = "none"
+        get("inputPass2").style.borderColor = "yellowgreen";
     } else {
-        password2.style.borderColor = "red"
-        console.log("Passwords NO coinciden!!")
+        get("errorPass2").style.display = "flex"
+        get("inputPass2").style.borderColor = "red"
     }
 }
 
@@ -58,23 +54,18 @@ const loginValidation = (e) => {
 
     e.preventDefault();
     
-    if( isEmail( emailUser.value )) {
-        emailUser.style.borderColor = "yellowgreen";
-        console.log("EMail Correcto!!")
+    if( isEmail( get("floatingInput").value )) {
+        get("floatingInput").style.borderColor = "yellowgreen";
     } else {
-        emailUser.style.borderColor = "red"
-        console.log("Email invalido!!")
+        get("floatingInput").style.borderColor = "red"
     }
 
-    if( passwordValidate( passUser.value )) {
-        passUser.style.borderColor = "yellowgreen";
-        console.log( passUser.value )
-        console.log("Password Valido!")
+    if( passwordValidate( get("floatingPassword").value )) {
+        get("floatingPassword").style.borderColor = "yellowgreen";
     } else {
-        passUser.style.borderColor = "red"
-        console.log("Password no Valido!!")
+        get("floatingPassword").style.borderColor = "red"
     }
 }
 
-loginButton.addEventListener( 'click', loginValidation );
-registerButton.addEventListener('click', validacion);
+get("loginButton").addEventListener( 'click', loginValidation );
+get("registerButton").addEventListener('click', validacion);

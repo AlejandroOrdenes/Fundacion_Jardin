@@ -10,9 +10,11 @@ const validacion = (e) => {
 
     if( isEmail( email.value )) {
         email.style.borderColor = "yellowgreen";
+        email.placeholder = ""
         console.log("EMail Correcto!!")
     } else {
         email.style.borderColor = "red"
+        email.placeholder = "Ingrese Email Valido!"
         console.log("Email invalido!!")
     }
     
@@ -21,6 +23,7 @@ const validacion = (e) => {
         console.log( message.value )
         console.log("Password Valido!")
     } else {
+        message.placeholder = "Ingrese un Mensaje!"
         message.style.borderColor = "red"
         console.log("Password no Valido!!")
     }

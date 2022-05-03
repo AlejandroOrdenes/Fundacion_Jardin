@@ -30,3 +30,5 @@ const validacion = (e) => {
 }
 
 sendButton.addEventListener('click', validacion);
+email.addEventListener("focusout", validacion)
+message.addEventListener("focusout", validacion)

@@ -5,6 +5,7 @@ function get(element) {
     return get;
 }
 
+
 const validacion = (e) => {
 
     e.preventDefault();
@@ -37,6 +38,7 @@ const validacion = (e) => {
         get("errorPass").style.display = "none"
         get("inputPass").style.borderColor = "yellowgreen";
     } else {
+        get("infoPass").style.display = "none"
         get("errorPass").style.display = "flex"
         get("inputPass").style.borderColor = "red"
     }
@@ -69,3 +71,12 @@ const loginValidation = (e) => {
 
 get("loginButton").addEventListener( 'click', loginValidation );
 get("botonRegistrarse").addEventListener('click', validacion);
+
+
+get("inputNombre").addEventListener("focusout", validacion)
+get("inputAddress").addEventListener("focusout", validacion)
+get("inputEmail").addEventListener("focusout", validacion)
+get("inputPass").addEventListener("focusout", validacion)
+get("inputPass2").addEventListener("focusout", validacion)
+get("floatingInput").addEventListener("focusout", validacion)
+get("floatingInput").addEventListener("focusout", validacion)

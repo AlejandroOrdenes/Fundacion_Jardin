@@ -50,12 +50,7 @@ const validacion = (e) => {
         get("errorPass2").style.display = "flex"
         get("inputPass2").style.borderColor = "red"
     }
-}
 
-const loginValidation = (e) => {
-
-    e.preventDefault();
-    
     if( isEmail( get("floatingInput").value )) {
         get("floatingInput").style.borderColor = "yellowgreen";
     } else {
@@ -69,14 +64,24 @@ const loginValidation = (e) => {
     }
 }
 
-get("loginButton").addEventListener( 'click', loginValidation );
+
+get("loginButton").addEventListener( 'click', validacion );
 get("botonRegistrarse").addEventListener('click', validacion);
 
+const ids = ["inputNombre", "inputAddress", "inputEmail", "inputPass", "inputPass2", "floatingInput", "floatingPassword" ]
 
-get("inputNombre").addEventListener("focusout", validacion)
-get("inputAddress").addEventListener("focusout", validacion)
-get("inputEmail").addEventListener("focusout", validacion)
-get("inputPass").addEventListener("focusout", validacion)
-get("inputPass2").addEventListener("focusout", validacion)
-get("floatingInput").addEventListener("focusout", validacion)
-get("floatingInput").addEventListener("focusout", validacion)
+function focus(id, funcValid) {
+    get(id).addEventListener("focusout", funcValid)
+}
+
+ids.forEach(element => {
+   focus(element, validacion) 
+});
+
+// get("inputNombre").addEventListener("focusout", validacion)
+// get("inputAddress").addEventListener("focusout", validacion)
+// get("inputEmail").addEventListener("focusout", validacion)
+// get("inputPass").addEventListener("focusout", validacion)
+// get("inputPass2").addEventListener("focusout", validacion)
+// get("floatingInput").addEventListener("focusout", validacion)
+// get("floatingInput").addEventListener("focusout", validacion)

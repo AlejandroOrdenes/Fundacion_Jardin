@@ -1,4 +1,6 @@
-import { isEmail, passwordValidate, get, valid} from "./validaciones.js"
+import { isEmail, passwordValidate, get, valid, getFocus} from "./validaciones.js"
+
+let ids = ["floatingInput", "floatingPassword"]
 
 const validacion = (e) => {
 
@@ -14,4 +16,4 @@ const validacion = (e) => {
 }
 
 get("loginButton").addEventListener('click', validacion);
-
+getFocus(ids, validacion)

@@ -1,6 +1,6 @@
 
 
-#errorNombre, #errorDireccion, #errorEmail, #errorPass, #errorPass2 {
+#errorNombre, #errorDireccion, #errorEmail, #errorPass, #errorPass2, #errorEmailLog, #errorPassLog, #errorEmailCont, #errorMensajeCont {
     margin: 3%;
     font-size: 0.9rem;
     color: red;

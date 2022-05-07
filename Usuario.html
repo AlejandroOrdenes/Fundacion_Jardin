@@ -79,7 +79,7 @@
           
                           <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4 ">Crear una cuenta</p>
           
-                          <form class="mx-1 mx-md-4">
+                          <form id="registerForm" class="mx-1 mx-md-4">
           
                             <div style="width: 140%" class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-user fa-lg me-3 fa-fw"></i>
@@ -115,7 +115,7 @@
                                 <label for="floatingPassword">Contraseña</label>
                               </div>
                               <p id="infoPass" style="font-size: 0.7rem; margin: 2%;">Min 6 y Max 16, mayuscula, minuscula, <br> numero y caracter especial</p>
-                              <p id="errorPass">Ingrese Password valido!</p>
+                              <p id="errorPass">Ingrese Contraseña valida!</p>
                             </div>
           
                             <div style="width: 140%" class="d-flex flex-row align-items-center mb-4">
@@ -124,13 +124,13 @@
                                 <input type="password" class="form-control" id="inputPass2" placeholder="Password">
                                 <label for="floatingPassword">Repite tu contraseña</label>
                               </div>
-                              <p id="errorPass2">Passwords no coinciden!</p>
+                              <p id="errorPass2">Contraseña no coinciden!</p>
                             </div>
           
                             <div class="form-check d-flex justify-content-flex-start mb-5">
                             <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Deseo recibir noticias</label>
+                                <label class="form-check-label" for="exampleCheck1">Suscribirme para donación</label>
                             </div>
     <!--  ================================================ -->
     <!--                    Seccion final                  -->
@@ -156,14 +156,16 @@ Soy usuario?<button type="button" class="btn btn-link" data-bs-toggle="modal" da
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Correo electronico</label>
             </div>
-            <div id="emailHelp" class="form-text">Nunca compartiremos tu gmail.</div>
+            <div id="emailHelp" class="form-text"> Nunca compartiremos tu gmail.</div>
+            <div id="errorEmailLog" class="form-text">Email Invalido!!</div>
           </div>
           <div class="mb-3">
             <div class="form-floating">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
               <label for="floatingPassword">Password</label>
             </div>
-            <div id="passHelp" class="form-text">La contraseña deben contener una mayuscula.</div>
+            <div id="passHelp" class="form-text">La contraseña deben contener una mayuscula, numero, caracter especial, min 6 y max 16.</div>
+            <div id="errorPassLog" class="form-text">Contraseña Invalida!!</div>
           </div>
           
           <div class="mb-3 form-check">
@@ -244,4 +246,5 @@ Soy usuario?<button type="button" class="btn btn-link" data-bs-toggle="modal" da
       <!-- bootstrap java i think -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
   <script type="module" src="./js/usuario.js"></script>  
+  <script type="module" src="./js/login.js"></script>
 </body>

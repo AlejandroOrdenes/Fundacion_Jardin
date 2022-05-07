@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/contacto.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/error.css">
     <link rel="icon" href="img/logo.png"sizes="64x64">
     <script src="https://kit.fontawesome.com/fef38ef5aa.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -50,12 +51,15 @@
                 <form action="contacto.html" class="formContacto">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input placeholder="" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">Ingresa tu Email</div>
+                        <input placeholder="" type="email" class="form-control" id="inputEmailCont" aria-describedby="emailHelp">
+                        <div id="emailHelpCont" class="form-text">Ingresa tu Email</div>
+                        <div id="errorEmailCont" class="form-text">Ingresa un Email Valido!!</div>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label" id="inputMensaje">Mensaje</label>
+                        <label for="exampleInputPassword1" class="form-label" id="inputMensajeCont">Mensaje</label>
                         <textarea class="form-control" id="inputText" rows="3"></textarea>
+                        <div id="mensajeCont" class="form-text">Ingresa Mensaje</div>
+                        <div id="errorMensajeCont" class="form-text">Ingresa un Mensaje Valido!!</div>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">

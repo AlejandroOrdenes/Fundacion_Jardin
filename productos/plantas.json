@@ -1,0 +1,80 @@
+{
+    "productos": [
+      {
+        "idpro": "1",
+        "nombre": "Planta del dinero",
+        "imagen": "",
+        "descripcion": "La planta del dinero es una especie siempre verde (perenne) caracterizada por alcanzar unos 50 cm de altura, tener raíces fibrosas y ramas suculentas. Presenta un porte herbáceo y se considera una planta glabra. A diferencia de lo que puedas pensar por su nombre “hiedra sueca” no tiene nada ni de planta trepadora, ni de hiedra, ni mucho menos de sueca.",
+        "precio":"5.000"
+      },
+      {
+        "idpro": "2",
+        "nombre": "Ficus Benjamina",
+        "imagen": "",
+        "descripcion": "El Ficus benjamina, es la planta mas cultivada en los interiores de nuestras casas, son plantas fáciles de cuidar y crecen rápidamente y puede alcanzar los 30 m de altura en condiciones naturales. Posee ramas péndulas y hojas gruesas de 6-13 cm de largo. Cuando fructifica, raramente en interior, produce pequeñas frutas, similares a los higos, que son el alimento favorito de varias aves en Malasia y Tailandia, donde es nativo.",
+        "precio":"23.600"
+      },
+      {
+        "idpro": "3",
+        "nombre": "Cheflera",
+        "imagen": "",
+        "descripcion": "La cheflera (Schefflera actinophylla) es una planta de interior originaria de Australia muy agradecida, fuerte y de gran desarrollo, que con unos mínimos cuidados puede llegar a alcanzar una altura de dos o tres metros, dependiendo del espacio que tenga.",
+        "precio":"25.000"
+      },
+      {
+        "idpro": "4",
+        "nombre": "Macetero de plastico alargado",
+        "imagen": "",
+        "descripcion": "Macetero de plastico alargado un contenedor de forma rectangular para cultivar y mantener plantas de interior y exterior. Por su forma y tamaño, es ideal para combinar diferentes plantas con flores y follajes, generando atractivos arreglos decorativos para jardines, terrazas, y en oficinas y locales comerciales.",
+        "precio":"3.900"
+      },      {
+        "idpro": "5",
+        "nombre": "Macetero madera fate",
+        "imagen": "",
+        "descripcion": "Este macetero de lujo cuenta con un sistema de auto riego que facilitará el cuidado de sus plantas, ahorrando agua, tiempo y nutrientes. Fabricado con un doble fondo que almacena el exceso de agua, este macetero permite que la planta se nutra según sea necesario ¡por un periodo de hasta 10 días! Además, el grosor de la madera sirve de aislamiento térmico, manteniendo la temperatura de la raíz.",
+        "precio":"89.990"
+      },
+      {
+        "idpro": "6",
+        "nombre": "Arbusto Eucalipto",
+        "imagen": "",
+        "descripcion": "El Eucalipto o también llamado Eucalyptus o Eucaliptus es un arbusto de tamaño pequeño. De crecimiento rápido, en la naturaleza pueden alcanzar un gran tamaño pero manteniéndolo en una maceta su crecimiento se puede controlar como para utilizarla como planta de interior. Disfruta de su belleza gracias a sus hojas tan especiales y reconocidas.",
+        "precio":"23.990"
+      },
+      {
+        "idpro": "7",
+        "nombre": "Thuja",
+        "imagen": "",
+        "descripcion": "La planta del dinero es una especie siempre verde (perenne) caracterizada por alcanzar unos 50 cm de altura, tener raíces fibrosas y ramas suculentas. Presenta un porte herbáceo y se considera una planta glabra. A diferencia de lo que puedas pensar por su nombre “hiedra sueca” no tiene nada ni de planta trepadora, ni de hiedra, ni mucho menos de sueca.",
+        "precio":"5.990"
+      },
+      {
+        "idpro": "8",
+        "nombre": "Tierra de hojas 40L",
+        "imagen": "",
+        "descripcion": "La Tierra de Hojas Gaspar Green en un producto usado para enriquecer el sustrato en el que se debe desarrollar un cultivo. Es útil para el jardín, las zonas alrededor de arbustos, para trasplantes, terrazas, siembras de césped, almácigos y para macetas. Una de las cualidades de este producto es que tiene una cantidad de materia orgánica mayor al 30% que le da un gran aporte de nitrógeno y otros elementos a las plantas. Es de origen natural y no genera efectos dañinos con el medio ambiente ni con el ser humano y los animales.",
+        "precio":"6.290"
+      },
+      {
+        "idpro": "9",
+        "nombre": "Tierra de hojas 40L",
+        "imagen": "",
+        "descripcion": "La Tierra de Hojas, es un Sustrato natural desarrollado a partir de la compostación de hojas y residuos vegetales, que mejora las condiciones de los suelos, tanto para el desarrollo de prados como el de otras plantas. Favorece la germinación y crecimiento del césped. Idealmente para ser usada en siembras y resiembra de prados en parques, plazas y jardines.",
+        "precio":"5.990"
+      },
+      {
+        "idpro": "10",
+        "nombre": "planta",
+        "imagen": "",
+        "descripcion": "planta prueba",
+        "precio":"9.999"
+      },
+      {
+        "idpro": "11",
+        "nombre": "plantita",
+        "imagen": "",
+        "descripcion": "planta prueba",
+        "precio":"9.999"
+      }
+    ]
+  }

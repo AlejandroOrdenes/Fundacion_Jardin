@@ -49,10 +49,11 @@ function valid(valBool, idElement, idError) {
   if(valBool) {
       get(idError).style.display = "none"
       get(idElement).style.borderColor = "yellowgreen";
+      return true
   } else {
       get(idError).style.display = "flex"
       get(idElement).style.borderColor = "red"
-      return true
+      return false
   }
 
 }

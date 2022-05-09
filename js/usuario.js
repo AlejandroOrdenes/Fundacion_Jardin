@@ -12,7 +12,7 @@ const validacion = (e) => {
     valid(addressValidate( get("inputAddress").value ), "inputAddress", "errorDireccion" )
     valid(isEmail( get("inputEmail").value ), "inputEmail", "errorEmail" )
 
-    if(valid(passwordValidate( get("inputPass").value ), "inputPass", "errorPass" )){
+    if(valid(passwordValidate( get("inputPass").value ), "inputPass", "errorPass" )==false){
         get("infoPass").style.display = "none"
     }
 

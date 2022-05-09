@@ -166,10 +166,11 @@ a {
 
 .M_quitado{
   margin-top:-50px;
-  margin-bottom: -100px;
+  margin-bottom: -50px; /*esto ayuda a que no se moleste al footer con el radio negro*/ 
 }
-
+/* en el css de productos se ayuda al footer con M_footer*/
 
 .ct_item-active{
   background-color: #333a3f; /* boton activado colorsito*/
 }
+

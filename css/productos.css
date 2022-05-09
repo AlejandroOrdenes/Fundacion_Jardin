@@ -140,9 +140,9 @@
     line-height: 1.8;
   }
 }
-/* margen del footer de usuario*/
+/* margen del footer de usuario, esto ayuda a que no topen las partes*/
 .M_footer{
-  margin-top: 130px;
+  margin-top: 170px; /*esto deja para la embarra el margen del footer cuando se inspecciona*/
 }
 
 /* configuracion de las fotitos 340px es por defecto para la pagina*/

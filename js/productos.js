@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 const xttp = new XMLHttpRequest();
 
-    xttp.open('GET', 'js/productos.json', true)
+    xttp.open('GET', './json/productos.json', true)
 
     xttp.send();
 

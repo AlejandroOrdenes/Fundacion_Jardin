@@ -73,7 +73,7 @@
               <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-lg-12 col-xl-11">
                   <div class="card text-black bordesito" >
-                    <div style="margin-bottom: 10%;" class="card-body p-md-5">
+                    <div style="margin-bottom: 23%;" class="card-body p-md-5">
                       <div class="row justify-content-center">
                         <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1 M_quitado">
           
@@ -81,56 +81,62 @@
           
                           <form id="registerForm" class="mx-1 mx-md-4">
           
-                            <div style="width: 140%" class="d-flex flex-row align-items-center mb-4">
+                            <div style="width: 100%" class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                               <div class="form-floating">
                                 <input type="input" class="form-control" id="inputNombre" placeholder="Nombre">
                                 <label for="floatingPassword">Nombre</label>
+                                <p id="errorNombre">Ingrese Nombre valido!</p>
                               </div>
-                              <p id="errorNombre">Ingrese Nombre valido!</p>
+                              
                             </div>
 
-                            <div style="width: 140%;" class="d-flex flex-row align-items-center mb-4">
+                            <div style="width: 100%;" class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-map-marker fa-lg me-3 fa-fw"></i>
                               <div class="form-floating">
                                 <input type="input" class="form-control" id="inputAddress" placeholder="Nombre">
                                 <label for="floatingPassword">Dirección</label>
+                                <p id="errorDireccion">Ingrese Dirección valida!</p>
                               </div>
-                              <p id="errorDireccion">Ingrese Dirección valida!</p>
+                              
                             </div>
           
-                            <div style="width: 140%;" class="d-flex flex-row align-items-center mb-4">
+                            <div style="width: 100%;" class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                               <div class="form-floating ">
                                 <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
                                 <label for="floatingInput">Correo electronico</label>
+                                <p id="errorEmail">Ingrese Email valido!</p>
                               </div>
-                              <p id="errorEmail">Ingrese Email valido!</p>
+                              
                             </div>
           
-                            <div style="width: 140%;" class="d-flex flex-row align-items-center mb-4">
+                            <div style="width: 100%;" class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                               <div class="form-floating">
                                 <input type="password" class="form-control" id="inputPass" placeholder="Password">
                                 <label for="floatingPassword">Contraseña</label>
+                                <p id="infoPass" style="font-size: 0.7rem; margin: 2%;">Min 6 y Max 16, mayuscula, minuscula, <br> numero y caracter especial</p>
+                                <p id="errorPass">Ingrese Contraseña valida!</p>
                               </div>
-                              <p id="infoPass" style="font-size: 0.7rem; margin: 2%;">Min 6 y Max 16, mayuscula, minuscula, <br> numero y caracter especial</p>
-                              <p id="errorPass">Ingrese Contraseña valida!</p>
+                              
+                              
                             </div>
           
-                            <div style="width: 140%" class="d-flex flex-row align-items-center mb-4">
+                            <div style="width: 100%" class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                               <div class="form-floating">
                                 <input type="password" class="form-control" id="inputPass2" placeholder="Password">
                                 <label for="floatingPassword">Repite tu contraseña</label>
+                                <p id="errorPass2">Contraseña no coinciden!</p>
                               </div>
-                              <p id="errorPass2">Contraseña no coinciden!</p>
+                              
                             </div>
           
                             <div class="form-check d-flex justify-content-flex-start mb-5">
                             <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Suscribirme para donación</label>
+                                <label style="margin-right: 10%;" class="form-check-label" for="exampleCheck1">Suscribirme para donación</label>
                             </div>
     <!--  ================================================ -->
     <!--                    Seccion final                  -->
@@ -155,9 +161,10 @@ Soy usuario?<button type="button" class="btn btn-link" data-bs-toggle="modal" da
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Correo electronico</label>
+              <div id="emailHelp" class="form-text"> Nunca compartiremos tu gmail.</div>
+              <div id="errorEmailLog" class="form-text">Email Invalido!!</div>
             </div>
-            <div id="emailHelp" class="form-text"> Nunca compartiremos tu gmail.</div>
-            <div id="errorEmailLog" class="form-text">Email Invalido!!</div>
+            
           </div>
           <div class="mb-3">
             <div class="form-floating">

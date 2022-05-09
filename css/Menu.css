@@ -25,6 +25,9 @@
   display: none;
 }
 
+.fix_menu{
+  padding-right:0px;
+}
 
 .navMenu {
   background-color: rgb(42, 42, 42);
@@ -164,4 +167,9 @@ a {
 .M_quitado{
   margin-top:-50px;
   margin-bottom: -100px;
+}
+
+
+.ct_item-active{
+  background-color: #333a3f; /* boton activado colorsito*/
 }

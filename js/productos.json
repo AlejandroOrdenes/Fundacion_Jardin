@@ -1,0 +1,111 @@
+[
+  {   
+      "idpro": "1",
+      "nombre": "Planta del dinero",
+      "imagen": "img/planta1dinero.jpg",
+      "descripcion": "La planta del dinero es una especie siempre verde (perenne) caracterizada por alcanzar unos 50 cm de altura, tener raíces fibrosas y ramas suculentas. Presenta un porte herbáceo y se considera una planta glabra. A diferencia de lo que puedas pensar por su nombre “hiedra sueca” no tiene nada ni de planta trepadora, ni de hiedra, ni mucho menos de sueca.",
+      "precio":"$5.000",
+      "alt":"Planta del dinero",
+      "category":"plantas"
+      },
+      {
+      "idpro": "2",
+      "nombre": "Ficus Benjamina",
+      "imagen": "img/P-Ficusbenjamina.png",
+      "descripcion": "El Ficus benjamina, es la planta mas cultivada en los interiores de nuestras casas, son plantas fáciles de cuidar y crecen rápidamente y puede alcanzar los 30 m de altura en condiciones naturales. Posee ramas péndulas y hojas gruesas de 6-13 cm de largo. Cuando fructifica, raramente en interior, produce pequeñas frutas, similares a los higos, que son el alimento favorito de varias aves en Malasia y Tailandia, donde es nativo.",
+      "precio":"$23.600",
+      "alt":"Ficus Benjamina",
+      "category":"plantas"
+      },
+      {
+      "idpro": "3",
+      "nombre": "Cheflera",
+      "imagen": "img/P-cheflera.png",
+      "descripcion": "La cheflera (Schefflera actinophylla) es una planta de interior originaria de Australia muy agradecida, fuerte y de gran desarrollo, que con unos mínimos cuidados puede llegar a alcanzar una altura de dos o tres metros, dependiendo del espacio que tenga.",
+      "precio":"$25.000",
+      "alt":"Cheflera",
+      "category":"plantas"
+      },
+      {
+      "idpro": "4",
+      "nombre": "Macetero de Plastico Alargado",
+      "imagen": "img/M-plastico.png",
+      "descripcion": "Macetero de plastico alargado un contenedor de forma rectangular para cultivar y mantener plantas de interior y exterior. Por su forma y tamaño, es ideal para combinar diferentes plantas con flores y follajes, generando atractivos arreglos decorativos para jardines, terrazas, y en oficinas y locales comerciales.",
+      "precio":"$3.900",
+      "alt":"Macetero de plastico alargado",
+      "category":"maceteros"
+      },      
+      {
+      "idpro": "5",
+      "nombre": "Macetero Madera Fate",
+      "imagen": "img/M-madera-fate2.png",
+      "descripcion": "Este macetero de lujo cuenta con un sistema de auto riego que facilitará el cuidado de sus plantas, ahorrando agua, tiempo y nutrientes. Fabricado con un doble fondo que almacena el exceso de agua, este macetero permite que la planta se nutra según sea necesario ¡por un periodo de hasta 10 días! Además, el grosor de la madera sirve de aislamiento térmico, manteniendo la temperatura de la raíz.",
+      "precio":"$89.990",
+      "alt":"Macetero madera fate",
+      "category":"maceteros"
+      },
+      {
+      "idpro": "6",
+      "nombre": "Maceta de Cerámica",
+      "imagen": "img/M_ceramica.png",
+      "descripcion": "Maceta de cerámica con diseño grabado, con agujero de drenaje.",
+      "precio":"$44.990",
+      "alt":"Maceta de Cerámica",
+      "category":"maceteros"
+      },
+      {
+      "idpro": "7",
+      "nombre": "Tierra universal compo",
+      "imagen": "img/T_Tierras.png",
+      "descripcion": "Sustrato de máxima calidad, Idóneo para interior y exterior, Contiene Agrosil para estimular las raíces y Perlita para una perfecta aireación del sustrato.",
+      "precio":"$14.990",
+      "alt":"tierrauniversalcompo",
+      "category":"tierradehojas"
+      },
+      {
+      "idpro": "8",
+      "nombre": "Tierra de hojas 40L",
+      "imagen": "img/T-2.jpg",
+      "descripcion": "La Tierra de Hojas Gaspar Green en un producto usado para enriquecer el sustrato en el que se debe desarrollar un cultivo. Es útil para el jardín, las zonas alrededor de arbustos, para trasplantes, terrazas, siembras de césped, almácigos y para macetas. Una de las cualidades de este producto es que tiene una cantidad de materia orgánica mayor al 30% que le da un gran aporte de nitrógeno y otros elementos a las plantas. Es de origen natural y no genera efectos dañinos con el medio ambiente ni con el ser humano y los animales.",
+      "precio":"$6.290",
+      "alt":"Tierra de hojas 40L",
+      "category":"tierradehojas"
+      },
+      {
+      "idpro": "9",
+      "nombre": "Tierra de Hojas 40L",
+      "imagen": "img/T-1.jpg",
+      "descripcion": "La Tierra de Hojas, es un Sustrato natural desarrollado a partir de la compostación de hojas y residuos vegetales, que mejora las condiciones de los suelos, tanto para el desarrollo de prados como el de otras plantas. Favorece la germinación y crecimiento del césped. Idealmente para ser usada en siembras y resiembra de prados en parques, plazas y jardines.",
+      "precio":"$5.990",
+      "alt":"Tierra de hojas 40L",
+      "category":"tierradehojas"
+      },
+      {
+      "idpro": "10",
+      "nombre": "Convulvus cneorum",
+      "imagen": "img/A_vul.png",
+      "descripcion": "Suele adoptar una forma redondeada y tiene hojas lanceoladas de color verde plateado. Se recomienda protegerlo del frío en invierno y puede podarse ligeramente después de la floración. Se utiliza a menudo en jardines con suelo bien drenado o en rocallas.",
+      "precio":"$12.990",
+      "alt":"convulvusCneroum",
+      "category":"arbustos"
+      },
+      {
+      "idpro": "11",
+      "nombre": "Thuja",
+      "imagen": "img/A-name.jpg",
+      "descripcion": "Las tuyas (Thuja) forman un género de coníferas de la familia de los cipreses (Cupressaceae) originario de las regiones templadas del Hemisferio Norte. Hay cinco especies en el género, dos nativas de Norteamérica y tres del este asiático, El género es monofilético y hermano de Thujopsis.",
+      "precio":"$5.990",
+      "alt":"Thuja",
+      "category":"arbustos"
+      },
+      {
+      "idpro": "12",
+      "nombre": "Arbusto Eucalipto",
+      "imagen": "img/A-Eucalipto.jpg",
+      "descripcion": "El Eucalipto o también llamado Eucalyptus o Eucaliptus es un arbusto de tamaño pequeño. De crecimiento rápido, en la naturaleza pueden alcanzar un gran tamaño pero manteniéndolo en una maceta su crecimiento se puede controlar como para utilizarla como planta de interior. Disfruta de su belleza gracias a sus hojas tan especiales y reconocidas.",
+      "precio":"$23.990",
+      "alt":"Arbusto Eucalipto",
+      "category":"arbustos"
+      }
+]
+  

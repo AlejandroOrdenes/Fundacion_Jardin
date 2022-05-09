@@ -1,9 +1,3 @@
-/*    ================================================ 
-                Carrusel de imagenes                     
-    ================================================ */
-.carousel-inner{
-    max-height: 39rem;
-}
 
 /*    ================================================ 
                 Centrado                     
@@ -44,7 +38,6 @@
     margin-bottom: 4%;
 }
 
-<<<<<<< HEAD
 @media (max-width: 600px) {
     .responsiveMenu {
         padding-right: 33%;
@@ -55,7 +48,6 @@
         height: 5%;
     }
 }
-=======
 /*Footer parte, todo lo de abajo*/
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
@@ -153,4 +145,134 @@
   margin-top: 130px;
 }
 
->>>>>>> 15101b828c9ef15be00c29404b939f2bfdc9bb53
+/* configuracion de las fotitos 340px es por defecto para la pagina*/
+.fotito{
+  width: 340px;
+  height: 340px;
+}
+
+.pad_letras{
+  margin: 100px;
+}
+
+.pad_arreglo{
+  margin-top: -150px;
+}
+
+/* Parte del carrusel */
+
+
+
+.C_centro{
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+h4, h2,small,a{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.Carousel{
+  width: 100%;
+  margin: -100px 0px;
+  margin-top: -150px;
+  
+}
+.Carousel h2{
+  font-size: 26px;
+  line-height: 38px;
+  padding-bottom: 24px;
+  opacity: .9;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* parte de las imagenes */
+
+.slick-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 304px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  max-width: 90vw;
+  overflow: hidden;
+}
+.slick-track{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+.slick{
+  position: relative;
+  width: 275px;
+  padding: 0 18px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+}
+.slick h4{
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 23px;
+  color: #fff;
+  padding: 15px;
+}
+.slick h4 small{
+  font-size: 15px;
+  display: block;
+}
+.slick a img{
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+  transition: .3s ease-in-out;
+}
+.slick a img:hover{
+  opacity: .85;
+}
+
+/* estos son los botones*/
+
+.slick-arrow{
+  border-radius: 30px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 4;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+  border: 0;
+  cursor: pointer;
+}
+.slick-arrow:focus{
+  outline: 0;
+}
+.slick-arrow svg{
+  width: 12px;
+  height: 100%;
+  color: rgba(0,0,0,.7);
+}
+.C_Fle_izq{
+  left: 0px;
+}
+.C_Fle_der{
+  right: 0px;
+}

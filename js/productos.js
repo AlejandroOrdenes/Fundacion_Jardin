@@ -1,3 +1,4 @@
+/* parte de las categorias */ 
 $(document).ready(function(){
 
 	// AGREGANDO CLASE ACTIVE AL PRIMER ENLACE ====================
@@ -27,7 +28,7 @@ $(document).ready(function(){
       })
 
   })
-
+/* parte de dibujo de los productos */ 
 const xttp = new XMLHttpRequest();
 
     xttp.open('GET', './json/productos.json', true)
@@ -95,7 +96,7 @@ const xttp = new XMLHttpRequest();
 
     }
 
-
+/* parte de carrusel */ 
     function App() {}
 
     window.onload = function (event) {

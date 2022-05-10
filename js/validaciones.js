@@ -33,7 +33,7 @@ function pass2Validate(pass, pass2) {
 } 
 
 function messageValidate( message ) {
-  let messageTest = /^[a-zA-Z0-9-\s]+$/i;
+  let messageTest = /^[a-zA-Z0-9-áéíóú\s]+$/i;
   if( !message.trim().length == 0 && message.trim().length <= 100 && messageTest.test( message ) ) {
     return true
   }

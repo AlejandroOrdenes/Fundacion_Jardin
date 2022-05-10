@@ -21,18 +21,7 @@ const validacion = (e) => {
         count += 1
     }
 
-    if(count == 2){
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Your work has been saved',
-            showConfirmButton: false,
-            timer: 1500
-          })
-    }
-
-
 }
 
-get("botonEnviar").addEventListener('click', validacion);
+get("botonEnviar").addEventListener('click', validacion)
 getFocus(ids, validacion)

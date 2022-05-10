@@ -47,6 +47,10 @@
     .navMenu {
         height: 5%;
     }
+
+    #footerUser {
+      margin-top: 107% ;
+    }
 }
 /*Footer parte, todo lo de abajo*/
 

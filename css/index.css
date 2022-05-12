@@ -124,9 +124,19 @@
     .containerButton {
         width: 50%;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
         padding-bottom: 27vh;
+        word-wrap: break-word;
+        justify-content: center;
+    }
+
+    .ayudaParrafo {
+      color: white;
+      font-size: 1.5rem;
+      padding-left: 10%;
+      padding-right: 10%;
+      font-style: italic;
     }
 
     .button {
@@ -140,7 +150,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2vw;
+        font-size: 1.5rem;
         text-decoration: none;
     }
 
@@ -186,7 +196,7 @@
         }
 
         .button {
-            font-size: 2rem;
+            font-size: 1.5rem;
             width: 29%;
             height: 9%;
         }
@@ -255,7 +265,7 @@
             width: 100%;
             height: 45%;
             padding-bottom: 0vh;
-            align-items: flex-start;
+            
         }
         .button {
             width: 35%;

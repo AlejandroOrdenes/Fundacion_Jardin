@@ -118,6 +118,10 @@ a {
 
 }
 
+#containerNosotros {
+    margin-top: 8%;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -252,6 +256,7 @@ a {
       text-align: left;
       font: normal 16px sans-serif;
       padding: 20px 50px;
+      margin-top: 5%;
 
     }
     

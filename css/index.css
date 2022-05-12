@@ -459,8 +459,12 @@
     z-index: 1;
     font-size: 22px;
     line-height: 23px;
-    color:#5cd85c;
-    padding: 15px;
+    margin-top: 8px;
+    background-color: #4d4d4dd6;
+    color: white;
+    width: 62%;
+    display: grid;
+    justify-content: center;
   }
   .slick h4 small{
     font-size: 15px;

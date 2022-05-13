@@ -1,4 +1,4 @@
-import { isEmail, passwordValidate, get, valid, getFocus} from "./validaciones.js"
+import { isEmail, passwordValidate, get, valid} from "./validaciones.js"
 
 let count = 0
 const validacion = (e) => {

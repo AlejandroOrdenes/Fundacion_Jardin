@@ -59,5 +59,4 @@ function valid(valBool, idElement, idError) {
 }
 
 
-
 export { isEmail, nameValidate, addressValidate, passwordValidate, pass2Validate, messageValidate, get, valid };

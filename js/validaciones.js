@@ -58,19 +58,6 @@ function valid(valBool, idElement, idError) {
 
 }
 
-function focus(id, funcValid) {
-  get(id).addEventListener("focusout", funcValid)  
-}
 
-function getFocus(ids, validacion) {
-  let count = 0
-  ids.forEach(element => {
-      count += 1
-      if(count == ids.length) {
-          focus(element, validacion)
-      }
-          
-  });
-}
 
-export { isEmail, nameValidate, addressValidate, passwordValidate, pass2Validate, messageValidate, get, valid, getFocus };
+export { isEmail, nameValidate, addressValidate, passwordValidate, pass2Validate, messageValidate, get, valid };

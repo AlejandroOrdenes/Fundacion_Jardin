@@ -5,15 +5,15 @@ function isEmail(email) {
   }
   
 function nameValidate(name) {
-  let nameTest = /^[a-zA-Z\s]+$/i;
-  if( !name.trim().length == 0 && name.trim().length <= 35 && nameTest.test(name) ){
+  let nameTest = /^[a-zA-Záéíóú\s]+$/i;
+  if( !name.trim().length == 0 && name.trim().length <= 40 && nameTest.test(name) ){
     return true
   } 
   return false
 }
 
 function addressValidate(address) {
-  let addressTest = /^[a-zA-Z0-9-\s]+$/i;
+  let addressTest = /^[a-zA-Z0-9-áéíóú\s]+$/i;
   if ( address.trim().length <= 50 && !address.trim().length == 0 && addressTest.test(address) ) {
     return true
   }
@@ -33,8 +33,8 @@ function pass2Validate(pass, pass2) {
 } 
 
 function messageValidate( message ) {
-  let messageTest = /^[a-zA-Z0-9-áéíóú\s]+$/i;
-  if( !message.trim().length == 0 && message.trim().length <= 100 && messageTest.test( message ) ) {
+  let messageTest = /^[a-zA-Z0-9-áéíóú,.!"#$%&/()=?¡¿\s]+$/i;
+  if( !message.trim().length == 0 && message.trim().length <= 300 && messageTest.test( message ) ) {
     return true
   }
   return false

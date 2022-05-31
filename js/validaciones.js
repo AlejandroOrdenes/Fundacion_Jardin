@@ -5,7 +5,7 @@ function isEmail(email) {
   }
   
 function nameValidate(name) {
-  let nameTest = /^[a-zA-Záéíóú\s]+$/i;
+  let nameTest = /^[a-zA-Z\s]+$/i;
   if( !name.trim().length == 0 && name.trim().length <= 40 && nameTest.test(name) ){
     return true
   } 
@@ -13,7 +13,7 @@ function nameValidate(name) {
 }
 
 function addressValidate(address) {
-  let addressTest = /^[a-zA-Z0-9-áéíóú\s]+$/i;
+  let addressTest = /^[a-zA-Z0-9-\s]+$/i;
   if ( address.trim().length <= 50 && !address.trim().length == 0 && addressTest.test(address) ) {
     return true
   }

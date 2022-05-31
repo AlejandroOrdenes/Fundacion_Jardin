@@ -1,4 +1,4 @@
-import { isEmail, nameValidate, addressValidate, passwordValidate, pass2Validate, get, valid, getFocus } from "./validaciones.js"
+import { isEmail, nameValidate, addressValidate, passwordValidate, pass2Validate, get, valid } from "./validaciones.js"
 
 let pass2 = pass2Validate( passwordValidate(get("inputPass").value), passwordValidate(get("inputPass2").value )) 
 

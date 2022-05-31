@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { isEmail, nameValidate, addressValidate, passwordValidate, pass2Validate, get, valid } from "./validaciones.js"
+=======
+import { isEmail, nameValidate, addressValidate, passwordValidate, pass2Validate, get, valid} from "./validaciones.js"
+>>>>>>> 3d26a2d0f1ab6f59393af9f7a209d96523ee2e57
 
 let pass2 = pass2Validate( passwordValidate(get("inputPass").value), passwordValidate(get("inputPass2").value )) 
 
